@@ -1,0 +1,14 @@
+challenge_area,priority,details
+Adsorptive CO2 capture,Impurity effects,Systematic co-adsorption and competitive adsorption testing with multi-component gas streams.
+Adsorptive CO2 capture,Process engineering,"Validation in cyclic PSA, TSA, and VSA with real flue gas for techno-economic assessment."
+Adsorptive CO2 capture,Material formulation,"Assess binders, pelletisation pressure, porosity retention, mechanical stability, and adsorption kinetics in shaped forms."
+Membrane-based separation,Real-gas performance,"Understand polymer plasticisation and the role of UiO-66 under water, H2S, toluene, and other impurities."
+Membrane-based separation,Long-term stability,Report physical ageing and MOF-polymer interface stability under pressure and temperature.
+Membrane-based separation,Scalable fabrication,"Develop thin, defect-free asymmetric or thin-film composite membranes with good particle dispersion and integrity."
+Catalytic CO2 conversion,Reaction mechanisms,Clarify reduction pathways over UiO-66-derived catalytic sites to enable rational design.
+Catalytic CO2 conversion,Material limitations,Address poor conductivity and limited active-site accessibility.
+Catalytic CO2 conversion,Sustainability and stability,Reduce reliance on sacrificial donors and organic solvents; prioritise aqueous media or coupled oxidative processes and stronger durability evidence.
+Cross-cutting,Real-condition testing,Move beyond ideal gas and pure-component tests toward realistic mixtures and cycling.
+Cross-cutting,Engineering and stability metrics,"Report mechanical, thermal, and long-term chemical stability of pellets and membranes."
+Cross-cutting,Mechanistic understanding,Link molecular-scale understanding to separations and catalysis design.
+Cross-cutting,Process integration,Integrate scalable fabrication with process models and system-level assessment.

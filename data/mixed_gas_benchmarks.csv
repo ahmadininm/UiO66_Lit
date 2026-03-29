@@ -1,0 +1,75 @@
+adsorbent,post_combustion_co2_uptake_mmol_g,post_combustion_co2_n2_selectivity,pre_combustion_co2_uptake_mmol_g,pre_combustion_co2_h2_selectivity,qst_kj_mol,reference
+Mg-MOF-74,5.87,182,4,450,47-52,Fr53-ft53-fa54 [24-26]
+Mg2(dobdc)(N2H4)1.8,4.89,-,-,-,118,Ff54 [66]
+dmpn-Mg2(dobpdc),2.73,153,-,-,,
+mmen-Mg2(dobpdc),2.52,-,-,-,71,Fb54-fc54-fd54 [67-69]
+Zeolite 13X,2.47,146,1.9,250,44.54,"Fz53-fi55 [65, 105]"
+AC,2.83,> 13,1.9,10,-,Fi55 [105]
+HKUST-1,1.09,12.9,-,-,-,Fx53 [64]
+HKUST-1,4.5,101,-,-,35,Fs53 [29]
+Cu-BTTri,-,-,5,28,21,"Ft54-ft53 [25, 36]"
+Cu-BTTri-en,1.25,44,-,-,90,Ft54 [36]
+Cu-BTTri-mmen,3.5,165,-,-,96,Fu54 [37]
+UTSA-16,2.06,315,-,-,35,Fe54 [71]
+UiO-66(Zr)-NH2,0.96,26.7,-,-,42.9,Fh55 [106]
+UiO-66(Zr)-(COOH)2,0.62,56,-,-,33.6-34.8,"Fk55-fl55 [107, 108]"
+UiO-66(Zr)-NH2-F4-0.53,0.76,18.9,-,-,27.2,Fh55 [106]
+Opt-UiO-66(Zr)-(OH)2,2.52,105,-,> 2854a,32.8,Fx53 [64]
+Opt-UiO-66(Hf)-(OH)2,1.81,95,-,> 1722a,29.5,"Fx53-fy53 [64, 74]"
+ZIF-300,0.67,22,-,-,27,Fm55 [109]
+Ni-4PyC,-,-,3.95,229,34,Fk54 [77]
+SIFSIX-3-Zn,2.37,1700,2.55,> 1800,45,Fw53 [70]
+SIFSIX-3-Cu-i,1.25,72,1.93,240,32,
+SNU-100,3.2,25.5,-,-,27.7-29.3,Fq54 [47]
+SNU-100-Mg,3.43,32.6,-,-,34.9-36.3,
+SNU-100-Co,3.82,31.0,-,-,34.6-36.0,
+SNU-100-Ca,3.43,40.4,-,-,36.4-37.4,
+SNU-100-Li,3.47,37.8,-,-,34.3-35.7,
+SNU-100-Ni,3.77,37.4,-,-,33.3-34.5,
+MOF-177,0.72,4,-,-,-,Fs54 [110]
+UiO-66-(CH3)2b,3.97,58,-,-,38.1,Fg57 [111]
+UiO-66,2.32,10,-,-,25.6,Ft56 [27]
+NH2-UiO-66,3.32,120,-,-,34.7,
+Cu3(BTC)2,4.40,33,-,-,33,
+NH2-Cu3(BTC)2,3.86,53,-,-,43,
+UiO-66,0.34,17.13,-,-,22.19,Fl55 [108]
+UiO-66-NH2,0.58,24.21,-,-,27.42,
+UiO-66-(OH)2,0.65,34.17,-,-,30.10,
+UiO-66-(COOH)2,0.62,35.43,-,-,33.63,
+UiO-66-(OCH2CH3)2,0.18,24.88,-,-,26.20,
+UiO-66-(F)4,0.26,15.98,-,-,18.66,
+UiO-66-(COOH)4,0.21,25.76,-,-,30.47,
+PEIc96@UiO-66,2.3,48,-,-,68,Fg58 [63]
+UiO-66(Zr)-(OH)2,1.83,29.0,-,-,34.5,Fl59 [112]
+UiO-66(Zr)-(OPr)2,1.25,25.9,-,-,36.2,
+UiO-66,0.56,19.07,-,-,23.3,Fg54 [23]
+UiO-66-(COOLi)2-EX,0.47,28.08,-,-,26.3,
+UiO-66-(COONa)2-EX,0.68,33.26,-,-,27.7,
+UiO-66-(COOK)2-EX,0.41,27.37,-,-,24.0,
+UiO-66-(COOH)4-EX,0.40,25.25,-,-,23.2,
+UiO-66-(COOLi)4-EX,0.70,26.62,-,-,27.5,
+UiO-66-(COONa)4-EX,0.32,24.88,-,-,23.0,
+UiO-66-(COOK)4-EX,0.21,25.30,-,-,24.3,
+UiO-66,0.92,26.5,-,-,-,Fd61 [113]
+Li/UiO-66,1.54,57.5,-,-,-,
+UiO-66-SO3H-0.15,0.51,16.3,-,-,26.6,Fo58 [114]
+UiO-66-SO3Li-0.15,0.93,39.7,-,-,25.4,
+UiO-66-SO3Na-0.15,0.75,67.6,-,-,28.4,
+UiO-66-SO3K-0.15,0.75,45.0,-,-,37.2,
+UiO-66-SO3Rb-0.15,0.64,28.8,-,-,34.1,
+UiO-66(Zr)-(COOH)2,0.21,66.9,-,-,33.6,Fb61 [115]
+UiO-66(Zr)-(COOLi)2,0.44,77.8,-,-,34.7,
+UiO-66(Zr)-(COONa)2,25,99.6,-,-,36.7,
+UiO-66(Zr)-(COOK)2,0.20,66.4,-,-,36.2,
+UiO-66,0.37,19.4,-,-,24.5,Fc61 [116]
+UiO-66-SO3H,0.09,18.7,-,-,-,
+UiO-66-SO3Li,0.28,22.4,-,-,26.7,
+UiO-66-SO3Na,0.22,34.7,-,-,29.8,
+UiO-66-SO3K,0.37,43.3,-,-,31.9,
+,,,,,,
+UiO-66(Hf),0.36,20,-,-,22.8a,Fy53 [74]
+UiO-66(Hf)-NH2,0.93,32,-,123,25.6a,
+UiO-66(Hf)-(COOH)2,0.40,27,-,61,28.2a,
+UiO-66(Hf)-(F)4,0.28,24,-,59,23.4a,
+,,,,,,
+"[a] CO2/CH4 (30:70) at 298 K and 1 bar; [b] CO2 = 0.15 bar, N2 = 0.75 bar, and 293 K, en = ethylenediamine; mmen = N,N′-dimethylethylenediamine; H4dobpdc = 4,4'-Dihydroxybiphenyl-3,3'-dicarboxylic acid; dmpn = 2,2-dimethyl-1,3-diaminopropane; 4PyC = 4-pyridylcarboxylate; BTC = 1,3,5-benzenetricarboxylic acid; PEI = polyethyleneimine; AC = activated carbon.","[a] CO2/CH4 (30:70) at 298 K and 1 bar; [b] CO2 = 0.15 bar, N2 = 0.75 bar, and 293 K, en = ethylenediamine; mmen = N,N′-dimethylethylenediamine; H4dobpdc = 4,4'-Dihydroxybiphenyl-3,3'-dicarboxylic acid; dmpn = 2,2-dimethyl-1,3-diaminopropane; 4PyC = 4-pyridylcarboxylate; BTC = 1,3,5-benzenetricarboxylic acid; PEI = polyethyleneimine; AC = activated carbon.","[a] CO2/CH4 (30:70) at 298 K and 1 bar; [b] CO2 = 0.15 bar, N2 = 0.75 bar, and 293 K, en = ethylenediamine; mmen = N,N′-dimethylethylenediamine; H4dobpdc = 4,4'-Dihydroxybiphenyl-3,3'-dicarboxylic acid; dmpn = 2,2-dimethyl-1,3-diaminopropane; 4PyC = 4-pyridylcarboxylate; BTC = 1,3,5-benzenetricarboxylic acid; PEI = polyethyleneimine; AC = activated carbon.","[a] CO2/CH4 (30:70) at 298 K and 1 bar; [b] CO2 = 0.15 bar, N2 = 0.75 bar, and 293 K, en = ethylenediamine; mmen = N,N′-dimethylethylenediamine; H4dobpdc = 4,4'-Dihydroxybiphenyl-3,3'-dicarboxylic acid; dmpn = 2,2-dimethyl-1,3-diaminopropane; 4PyC = 4-pyridylcarboxylate; BTC = 1,3,5-benzenetricarboxylic acid; PEI = polyethyleneimine; AC = activated carbon.","[a] CO2/CH4 (30:70) at 298 K and 1 bar; [b] CO2 = 0.15 bar, N2 = 0.75 bar, and 293 K, en = ethylenediamine; mmen = N,N′-dimethylethylenediamine; H4dobpdc = 4,4'-Dihydroxybiphenyl-3,3'-dicarboxylic acid; dmpn = 2,2-dimethyl-1,3-diaminopropane; 4PyC = 4-pyridylcarboxylate; BTC = 1,3,5-benzenetricarboxylic acid; PEI = polyethyleneimine; AC = activated carbon.","[a] CO2/CH4 (30:70) at 298 K and 1 bar; [b] CO2 = 0.15 bar, N2 = 0.75 bar, and 293 K, en = ethylenediamine; mmen = N,N′-dimethylethylenediamine; H4dobpdc = 4,4'-Dihydroxybiphenyl-3,3'-dicarboxylic acid; dmpn = 2,2-dimethyl-1,3-diaminopropane; 4PyC = 4-pyridylcarboxylate; BTC = 1,3,5-benzenetricarboxylic acid; PEI = polyethyleneimine; AC = activated carbon.","[a] CO2/CH4 (30:70) at 298 K and 1 bar; [b] CO2 = 0.15 bar, N2 = 0.75 bar, and 293 K, en = ethylenediamine; mmen = N,N′-dimethylethylenediamine; H4dobpdc = 4,4'-Dihydroxybiphenyl-3,3'-dicarboxylic acid; dmpn = 2,2-dimethyl-1,3-diaminopropane; 4PyC = 4-pyridylcarboxylate; BTC = 1,3,5-benzenetricarboxylic acid; PEI = polyethyleneimine; AC = activated carbon."

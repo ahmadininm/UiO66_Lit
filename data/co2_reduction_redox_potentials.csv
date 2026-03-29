@@ -1,0 +1,9 @@
+reaction,standard_potential_v_vs_she
+CO2 + 8H+ + 8e- → CH4 + 2H2O,-0.24
+2CO2 + 12H+ + 12e- → C2H4 + 4H2O,-0.34
+CO2 + 6H+ + 6e- → CH3OH + H2O,-0.38
+2H+ + 2e– → H2,-0.42
+CO2 + 4H+ + 4e- → HCHO + H2O,-0.51
+CO2 + 2H+ + 2e- → CO + H2O,-0.52
+CO2 + 2H+ + 2e- → HCOOH,-0.61
+CO2 + e- → CO2-,-1.9

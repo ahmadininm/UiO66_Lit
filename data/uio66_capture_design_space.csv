@@ -1,0 +1,319 @@
+material,sbet_m2_g,conditions,co2_uptake_mmol_g,n2_uptake_mmol_g,ch4_uptake_mmol_g,h2_uptake_mmol_g,selectivity_co2_n2,selectivity_co2_ch4,selectivity_co2_h2,reference,category
+UiO-66,1300,"298 K, 1.5-1.7 bar",1.36,-,-,-,-,-,-,Ft55 [174],Pure UiO-66
+UiO-66(Ce),606,"298 K, 1 bar",0.90,-,-,-,-,-,-,Fz55 [175],Pure UiO-66
+UiO-66,1378,"298 K, 10 bar",6.7,0.24,-,-,27.9,-,-,Fu55 [179],Pure UiO-66
+41PVA@UiO-66,1196,"298 K, 10 bar",5.5,0.22,-,-,25,-,-,Fu55 [179],Pure UiO-66
+UiO-66,1051,"298 K, 1 bar",4.7,-,-,-,-,-,-,Fq75 [177],Pure UiO-66
+UiO-66-MAT,912,"298 K, 1 bar",4.2,-,-,-,-,-,-,Fq75 [177],Pure UiO-66
+UiO-66,857,"308 K, 1 bar",1.68,-,0.43,-,-,-,-,1b [180],Pure UiO-66
+UiO-67,1998,"308 K, 1 bar",1.31,-,0.33,-,-,-,-,1b [180],Pure UiO-66
+NH2-UiO-66,826,"308 K, 1 bar",1.91,-,0.49,-,-,-,-,1b [180],Pure UiO-66
+U-1,1276,"298 K, 1 bar",1.97,-,0.58,-,-,3.34,-,[181] Pc1000,Pure UiO-66
+U-2,879,"298 K, 1 bar",1.54,-,0.47,-,-,3.25,-,[181] Pc1000,Pure UiO-66
+U-3,820,"298 K, 1 bar",1.44,-,0.46,-,-,3.16,-,[181] Pc1000,Pure UiO-66
+U-4,715,"298 K, 1 bar",1.29,-,0.42,-,-,3.09,-,[181] Pc1000,Pure UiO-66
+U-5,788,"298 K, 1 bar",1.36,,0.43,,,3.13,,[181] Pc1000,Pure UiO-66
+AU-1,1145,"298 K, 1 bar",2.11,-,0.56,-,-,3.76,-,[181] Pc1000,Pure UiO-66
+WU-1,996,"298 K, 1 bar",2.16,-,0.48,-,-,4.48,-,[181] Pc1000,Pure UiO-66
+CU-1,1095,"298 K, 1 bar",2.00,-,0.53,-,-,3.77,-,[181] Pc1000,Pure UiO-66
+DU-1,886,"298 K, 1 bar",2.60,-,0.44,-,-,5.87,-,[181] Pc1000,Pure UiO-66
+UiO-66,951,"298 K, 1 bar",1.13,-,0.28,-,-,-,-,Fb85 [182],Pure UiO-66
+UiO-66,1250,"273 K, 1 bar",4.33,-,-,-,-,-,-,Fg57 [111],Direct functionalization of UiO-66
+UiO-66-NH2,1084,"273 K, 1 bar",5.27,-,-,-,-,-,-,Fg57 [111],Direct functionalization of UiO-66
+UiO-66-NO2,869,"273 K, 1 bar",4.69,-,-,-,-,-,-,Fg57 [111],Direct functionalization of UiO-66
+UiO-66-Br,801,"273 K, 1 bar",4.06,-,-,-,-,-,-,Fg57 [111],Direct functionalization of UiO-66
+UiO-66-(COOH)2,453,"303 K, 20 bar",3.2,0.46,0.7,-,-,-,-,Fu59 [183],Direct functionalization of UiO-66
+UiO-66,(1086),"306 K, 25 bar",5.6,-,3.2,-,-,2.6,-,Fi57 [184],Direct functionalization of UiO-66
+UiO-66-SO3H,(769),"306 K, 25 bar",5.6,-,2.1,-,-,4.5,-,Fi57 [184],Direct functionalization of UiO-66
+UiO-66-CO2H,(842),"306 K, 25 bar",6.4,-,2.7,-,-,5.2,-,Fi57 [184],Direct functionalization of UiO-66
+UiO-66-I,(799),"306 K, 25 bar",5.1,-,2.2,-,-,4.7,-,Fi57 [184],Direct functionalization of UiO-66
+UiO-66(Zr),880,"77 K, 40 bar",-,-,-,11.5,-,-,-,Fn57 [185],Direct functionalization of UiO-66
+UiO-66(Zr)-(CF3)2,540,"77 K, 40 bar",-,-,-,6.0,-,-,-,Fn57 [185],Direct functionalization of UiO-66
+UiO-66(Zr)-NH2,1206,"77 K, 40 bar",-,-,-,12.5,-,-,-,Fn57 [185],Direct functionalization of UiO-66
+UiO-66,(1086),"273 K, 1 bar",2.88,-,-,-,-,-,-,Fv56 [186],Direct functionalization of UiO-66
+UiO-66-CF3,(739),"273 K, 1 bar",1.53,-,-,-,-,-,-,Fv56 [186],Direct functionalization of UiO-66
+UiO-66-F2,(836),"273 K, 1 bar",2.31,-,-,-,-,-,-,Fv56 [186],Direct functionalization of UiO-66
+UiO-66-Br2,(339),"273 K, 1 bar",1.40,-,-,-,-,-,-,Fv56 [186],Direct functionalization of UiO-66
+UiO-66-(COOH)2,(217),"273 K, 1 bar",1.70,-,-,-,-,-,-,Fv56 [186],Direct functionalization of UiO-66
+UiO-66-Cl2,(609),"273 K, 1 bar",1.68,-,-,-,-,-,-,Fv56 [186],Direct functionalization of UiO-66
+UiO-66,1105,"298 K, 20 bar",7.03,1.42,3.39,-,4.95,2.07,-,fw56 [62],Direct functionalization of UiO-66
+UiO-66-NH2,1123,"298 K, 20 bar",8.41,0.55,4.01,-,15.29,2.09,-,fw56 [62],Direct functionalization of UiO-66
+UiO-66-NO2,792,"298 K, 20 bar",5.72,1.25,3.27,-,4.58,1.75,-,fw56 [62],Direct functionalization of UiO-66
+"UiO-66-2,5-(OMe)2",868,"298 K, 20 bar",6.74,0.47,3.28,-,14.34,2.05,-,fw56 [62],Direct functionalization of UiO-66
+"UiO-66-1,4-Naphyl",757,"298 K, 20 bar",6.32,0.31,2.68,-,20.39,2.36,-,fw56 [62],Direct functionalization of UiO-66
+Amino-Zr-MOF,1220,"273 K, 9.9 bar",9.0,-,3.7,-,-,2.21,-,11t [187],Direct functionalization of UiO-66
+UiO-66,1401,"298 K, 1 bar",2.32,0.73,-,-,10,-,-,Ft56 [27],Direct functionalization of UiO-66
+NH2-UiO-66,1254,"298 K, 1 bar",3.32,0.11,-,-,120,-,-,Ft56 [27],Direct functionalization of UiO-66
+UiO-66,1100,"298 K, 1 bar",1.8,-,-,-,17.8,-,-,Fw55 [188],Direct functionalization of UiO-66
+UiO-66-NH2,1118,"298 K, 1 bar",3.5,-,-,-,66,-,-,Fw55 [188],Direct functionalization of UiO-66
+UiO-66-NO2,771,"273 K, 1 bar",3.12,0.281,-,-,45.31,-,-,Fz56 [189],Direct functionalization of UiO-66
+UiO-66-NO2-NH2,868,"273 K, 1 bar",3.89,0.277,-,-,55.98,-,-,Fz56 [189],Direct functionalization of UiO-66
+UiO-66-NO2-(OH)2,732,"273 K, 1 bar",3.53,0.268,-,-,48.12,-,-,Fz56 [189],Direct functionalization of UiO-66
+UiO-66-NO2-(COOH)2,462,"273 K, 1 bar",2.49,0.192,-,-,47.46,-,-,Fz56 [189],Direct functionalization of UiO-66
+Zr-MOF,1433,"273 K, 9.8 bar",8.1,-,3.6,-,-,2.2-3.6,-,Pj36 [190],Direct functionalization of UiO-66
+Zr-MOF-NH4-1,1320,"273 K, 9.8 bar",7.8,-,2.8,-,-,2.8-4.3,-,Fu56 [191],Direct functionalization of UiO-66
+Zr-MOF-NH4-2,1215,"273 K, 9.8 bar",8.63,-,-,-,-,-,-,Fu56 [191],Direct functionalization of UiO-66
+Zr-MOF-NH4-3,1202,"273 K, 9.8 bar",7.5,-,-,-,-,-,-,Fu56 [191],Direct functionalization of UiO-66
+UiO-66-NH2,1025,"273 K, 9.8 bar",7.5,-,3.1,-,-,2.3,-,Fb57 [192],Direct functionalization of UiO-66
+UiO-66-NH2-NO2 10%,1152,"273 K, 9.8 bar",9.0,-,3.5,-,-,2.7,-,Fb57 [192],Direct functionalization of UiO-66
+UiO-66-NH2-NO2 75%,824,"273 K, 9.8 bar",6.0,-,2.5,-,-,2.4,-,Fb57 [192],Direct functionalization of UiO-66
+UiO-66-NO2,771,"273 K, 9.8 bar",5.0,-,2.3,-,-,2.2,-,Fb57 [192],Direct functionalization of UiO-66
+UiO-66-NO2-NH2 10%,867,"273 K, 9.8 bar",6.3,-,2.8,-,-,2.2,-,Fb57 [192],Direct functionalization of UiO-66
+UiO-66-NO2-NH2 75%,788,"273 K, 9.8 bar",6.0,-,2.7,-,-,2.2,-,Fb57 [192],Direct functionalization of UiO-66
+HT-UiO-66b,1170,"298 K, 1 bar",1.99,-,-,-,-,-,-,Fx56 [193],Direct functionalization of UiO-66
+HT-UiO-66-NH2,1057,"298 K, 1 bar",2.89,-,-,-,-,-,-,Fx56 [193],Direct functionalization of UiO-66
+HT-UiO-66-NH2-53,1139,"298 K, 1 bar",2.33,-,-,-,-,-,-,Fx56 [193],Direct functionalization of UiO-66
+LT-UiO-66b,1331,"298 K, 1 bar",2.39,-,-,-,-,-,-,Fx56 [193],Direct functionalization of UiO-66
+LT-UiO-66-NH2,1161,"298 K, 1 bar",3.04,-,-,-,-,-,-,Fx56 [193],Direct functionalization of UiO-66
+LT-UiO-66-NH2-30,1284,"298 K, 1 bar",2.45,-,-,-,-,-,-,Fx56 [193],Direct functionalization of UiO-66
+LT-UiO-66-NH2-57,1252,"298 K, 1 bar",2.63,-,-,-,-,-,-,Fx56 [193],Direct functionalization of UiO-66
+LT-UiO-66-NH2-77,1198,"298 K, 1 bar",2.84,-,-,-,-,-,-,Fx56 [193],Direct functionalization of UiO-66
+UiO-66,1733,"308 K, 1 bar",1.07,0.08,-,-,13.38,-,-,Fh85 [194],Direct functionalization of UiO-66
+UiO-66-NH2,1218,"308 K, 1 bar",1.11,0.07,-,-,15.86,-,-,Fh85 [194],Direct functionalization of UiO-66
+UiO-66-(OH)2,318,"308 K, 1 bar",0.9,0.05,-,-,18,-,-,Fh85 [194],Direct functionalization of UiO-66
+UiO-66-Br,851,"308 K, 1 bar",1.22,0.10,-,-,12.2,-,-,Fh85 [194],Direct functionalization of UiO-66
+UiO-66,851,"298 K, 1 bar",2.17,0.15,-,-,14.47,-,-,Fk86 [195],Direct functionalization of UiO-66
+Azo-UiO-66,851,"298 K, 1 bar",0.76,0.03,-,-,25.33,-,-,Fk86 [195],Direct functionalization of UiO-66
+UiO-66-BAT,486,"313 K, 1 bar",1.25,-,-,-,-,-,-,Fa92 [196],Direct functionalization of UiO-66
+UiO-66-BAT,486,"298 K, 1 bar",2.23,-,-,-,-,-,-,Fa92 [196],Direct functionalization of UiO-66
+UiO-66-BAT,486,"273 K, 1 bar",3.79,-,-,-,-,-,-,Fa92 [196],Direct functionalization of UiO-66
+UiO-66,769,"298 K, 1 bar",1.31,0.15,-,-,8.73,-,-,Fl55 [108],Direct functionalization of UiO-66
+UiO-66,769,"273 K, 1 bar",2.07,0.26,-,-,7.96,-,-,Fl55 [108],Direct functionalization of UiO-66
+UiO-66-NH2,833,"298 K, 1 bar",1.78,0.16,-,-,11.13,-,-,Fl55 [108],Direct functionalization of UiO-66
+UiO-66-NH2,833,"273 K, 1 bar",2.80,0.26,-,-,10.77,-,-,Fl55 [108],Direct functionalization of UiO-66
+UiO-66-(OH)2,705,"298 K, 1 bar",1.95,0.16,-,-,12.19,-,-,Fl55 [108],Direct functionalization of UiO-66
+UiO-66-(OH)2,705,"273 K, 1 bar",2.78,0.28,-,-,9.93,-,-,Fl55 [108],Direct functionalization of UiO-66
+UiO-66-(COOH)2,494,"298 K, 1 bar",1.82,0.17,-,-,10.71,-,-,Fl55 [108],Direct functionalization of UiO-66
+UiO-66-(COOH)2,494,"273 K, 1 bar",2.46,0.26,-,-,9.46,-,-,Fl55 [108],Direct functionalization of UiO-66
+UiO-66-(OCH2CH3)2,405,"298 K, 1 bar",0.65,0.06,-,-,10.83,-,-,Fl55 [108],Direct functionalization of UiO-66
+UiO-66-(OCH2CH3)2,405,"273 K, 1 bar",1.03,0.11,-,-,9.36,-,-,Fl55 [108],Direct functionalization of UiO-66
+UiO-66-(F)4,833,"298 K, 1 bar",1.22,0.19,-,-,6.42,-,-,Fl55 [108],Direct functionalization of UiO-66
+UiO-66-(F)4,833,"273 K, 1 bar",2.11,0.32,-,-,6.59,-,-,Fl55 [108],Direct functionalization of UiO-66
+UiO-66-(COOH),212,"298 K, 1 bar",0.53,0.09,-,-,5.89,-,-,Fl55 [108],Direct functionalization of UiO-66
+UiO-66-(COOH),212,"273 K, 1 bar",0.81,0.15,-,-,5.40,-,-,Fl55 [108],Direct functionalization of UiO-66
+NH2-UiO-66,1258,"298 K, 5 bar",5.93,0.19,2.12,-,31.21,2.79,-,"Pb97-pa121 [82, 197]",Post-synthetic functionalization of UiO-66
+GMA-UiO-66,965,"298 K, 5 bar",6.98,0.16,2.56,-,43.63,2.73,-,"Pb97-pa121 [82, 197]",Post-synthetic functionalization of UiO-66
+EDA-UiO-66,612,"298 K, 5 bar",9.07,-,2.38,-,-,3.81,-,pa121 [197],Post-synthetic functionalization of UiO-66
+UiO-66-allyl,798,"308 K, 1 bar",0.39,0.26,-,-,1.5,-,-,Fb58 [198],Post-synthetic functionalization of UiO-66
+UiO-66-epoxide,498,"308 K, 1 bar",2.26,0.59,-,-,3.83,-,-,Fb58 [198],Post-synthetic functionalization of UiO-66
+UiO-66-dibromide,5,"308 K, 1 bar",0.80,0.43,-,-,1.86,-,-,Fb58 [198],Post-synthetic functionalization of UiO-66
+UiO-66-ethylsulfide,52,"308 K, 1 bar",2.40,0.68,-,-,3.53,-,-,Fb58 [198],Post-synthetic functionalization of UiO-66
+UiO-66-aminoalcohol,3,"308 K, 1 bar",2.27,0.33,-,-,6.88,-,-,Fb58 [198],Post-synthetic functionalization of UiO-66
+UiO-66-diamine,6,"308 K, 1 bar",1.16,0.35,-,-,3.31,-,-,Fb58 [198],Post-synthetic functionalization of UiO-66
+UiO-66-NH2,1321,"298 K, 1 bar",3.24,-,-,-,-,-,-,Fp75 [199],Post-synthetic functionalization of UiO-66
+UiO-66-NH2@SA,1012,"298 K, 1 bar",2.62,-,-,-,-,-,-,Fp75 [199],Post-synthetic functionalization of UiO-66
+Pip-UiO-66-NH2,278,"298 K, 10 bar",3.66,-,-,-,-,19.09,-,Fh59 [200],Post-synthetic functionalization of UiO-66
+UiO-66,926,"298 K, 1 bar",1.12,-,0.24,-,-,4.67,-,Fa58 [201],Post-synthetic functionalization of UiO-66
+25TETA/UiO-66,467,"298 K, 1 bar",1.61,-,0.12,-,-,13.42,-,Fa58 [201],Post-synthetic functionalization of UiO-66
+UiO-66,1180,"298 K, 1 bar",1.39,0.118,-,-,16.75,-,-,Us6 [202],Post-synthetic functionalization of UiO-66
+DETA@UiO-66,957,"298 K, 1 bar",2.11,0.125,-,-,20.1,-,-,Us6 [202],Post-synthetic functionalization of UiO-66
+TEPA@UiO-66,972,"298 K, 1 bar",2.30,0.107,-,-,23.49,-,-,Us6 [202],Post-synthetic functionalization of UiO-66
+TETA@UiO-66,1027,"298 K, 1 bar",2.53,0.111,-,-,22.69,-,-,Us6 [202],Post-synthetic functionalization of UiO-66
+UiO-66,1162,"298 K, 0.15 bar",0.29,-,-,-,-,-,-,Fs58 [203],Post-synthetic functionalization of UiO-66
+UiO-66-PENTAEN-100,20,"298 K, 0.15 bar",0.24,-,-,-,-,-,-,Fs58 [203],Post-synthetic functionalization of UiO-66
+UiO-66-PENTAEN-200,15,"298 K, 0.15 bar",0.34,-,-,-,-,-,-,Fs58 [203],Post-synthetic functionalization of UiO-66
+UiO-66-PENTAEN-300,18,"298 K, 0.15 bar",0.42,-,-,-,-,-,-,Fs58 [203],Post-synthetic functionalization of UiO-66
+UiO-66-PENTAEN-400,16,"298 K, 0.15 bar",0.50,-,-,-,-,-,-,Fs58 [203],Post-synthetic functionalization of UiO-66
+UiO-66-PENTAEN-500,17,"298 K, 0.15 bar",0.59,-,-,-,-,-,-,Fs58 [203],Post-synthetic functionalization of UiO-66
+UiO-66,1108,"308 K, 1 bar",0.13,-,-,-,-,1.9,-,Ff58 [204],Post-synthetic functionalization of UiO-66
+30PEI@UiO-66c,37,"308 K, 1 bar",0.74 (1.11),-,-,-,-,10 (18),-,Ff58 [204],Post-synthetic functionalization of UiO-66
+UiO-66,1404,"298 K, 1 bar",1.83,-,-,-,24,-,-,Fl62 [205],Post-synthetic functionalization of UiO-66
+DES@UiO-66-COOH(0.01),1335,"298 K, 1 bar",1.84,-,-,-,-,-,-,Fl62 [205],Post-synthetic functionalization of UiO-66
+DES@UiO-66-COOH(0.05),1231,"298 K, 1 bar",2.31,-,-,-,81,-,-,Fl62 [205],Post-synthetic functionalization of UiO-66
+DES@UiO-66-COOH(0.10),1177,"298 K, 1 bar",2.29,-,-,-,-,-,-,Fl62 [205],Post-synthetic functionalization of UiO-66
+DES@UiO-66-COOH(0.15),1119,"298 K, 1 bar",2.13,-,-,-,-,-,-,Fl62 [205],Post-synthetic functionalization of UiO-66
+UiO-66,-,"195 K, 1 bar",13.35,-,-,-,-,-,-,Fd65 [206],Post-synthetic functionalization of UiO-66
+UiO-66@xPS,-,"195 K, 1 bar",10.54,-,-,-,-,-,-,Fd65 [206],Post-synthetic functionalization of UiO-66
+UiO-66@xPBA,-,"195 K, 1 bar",11.96,-,-,-,-,-,-,Fd65 [206],Post-synthetic functionalization of UiO-66
+UiO-66-NH2,987,"298 K, 1 bar",2.67,0.104,-,-,25.5,-,-,Fg58 [63],Post-synthetic functionalization of UiO-66
+PEIc48@UiO,151,"298 K, 1 bar",2.75,0.089,-,-,30.9,-,-,Fg58 [63],Post-synthetic functionalization of UiO-66
+PEIc72@UiO,12,"298 K, 1 bar",3.26,0.080,,,40.6,,,Fg58 [63],Post-synthetic functionalization of UiO-66
+PEI72@UiO,14.4,"298 K, 1 bar",2.99,0.083,-,-,36.1,-,-,Fg58 [63],Post-synthetic functionalization of UiO-66
+PEIc96@UiO,7.6,"298 K, 1 bar",3.15,0.066,-,-,48.0,-,-,Fg58 [63],Post-synthetic functionalization of UiO-66
+PEI96 + UiO,1.4,"298 K, 1 bar",1.87,0.052,-,-,36.0,-,-,Fg58 [63],Post-synthetic functionalization of UiO-66
+UiO-66-NH2 (I),1135,"298 K, 1 bar",2.41,0.21,-,-,11.48,-,-,Ph10 [207],Post-synthetic functionalization of UiO-66
+PA-UiO-66-NH2 (IPA),962,"298 K, 1 bar",2.38,0.21,-,-,11.33,-,-,Ph10 [207],Post-synthetic functionalization of UiO-66
+C10-UiO-66-NH2 (IC10),1079,"298 K, 1 bar",2.38,0.23,-,-,10.35,-,-,Ph10 [207],Post-synthetic functionalization of UiO-66
+SA-UiO-66-NH2 (ISA),827,"298 K, 1 bar",1.98,0.21,-,-,9.43,-,-,Ph10 [207],Post-synthetic functionalization of UiO-66
+UiO-66,951,"298 K, 1 bar",1.13,-,0.28,-,-,4.04,-,Fg86 [208],Post-synthetic functionalization of UiO-66
+UiO-66-NH2,965,"298 K, 1 bar",1.79,-,0.45,-,-,3.98,-,Fg86 [208],Post-synthetic functionalization of UiO-66
+UiO-66-NH-COCH3,913,"298 K, 1 bar",1.63,-,0.38,-,-,4.29,-,Fg86 [208],Post-synthetic functionalization of UiO-66
+UiO-66-NH2,913,"298 K, 1 bar",1.64,-,0.21,-,-,7.81,-,Fj86 [209],Post-synthetic functionalization of UiO-66
+UiO-66-NH2@ICA,913,"298 K, 1 bar",2.13,-,0.11,-,-,19.36,-,Fj86 [209],Post-synthetic functionalization of UiO-66
+UiO-66-NH2,-,"298 K, 1 atm",3.78,0.34,0.93,-,32.74,7.16,-,[210] Fp41,Post-synthetic functionalization of UiO-66
+UiO-66-IL-Br,663,"298 K, 1 atm",0.97,0.063,0.17,-,30.0,17.50,-,[210] Fp41,Post-synthetic functionalization of UiO-66
+UiO-66-IL-PF6,608,"298 K, 1 atm",1.29,0.052,0.14,-,41.37,12.55,-,[210] Fp41,Post-synthetic functionalization of UiO-66
+UiO-66-IL-SO3CF3,538,"298 K, 1 atm",0.94,0.055,0.12,-,21.61,18.65,-,[210] Fp41,Post-synthetic functionalization of UiO-66
+UiO-66-IL-ClO4,588,"298 K, 1 atm",1.38,0.045,0.12,-,55.65,18.95,-,[210] Fp41,Post-synthetic functionalization of UiO-66
+UiO-66,1170,"298 K, 1 bar",2.1,-,-,-,18,6,-,Ul1 [211],Post-synthetic functionalization of UiO-66
+[Emim][Ac]@UiO-66-3.5%,1117,"298 K, 1 bar",2.5,-,-,-,72,11.4,-,Ul1 [211],Post-synthetic functionalization of UiO-66
+UiO-66,1199,"273 K, 1 bar",2.39,-,-,-,-,-,-,Fd61 [113],Post-synthetic metalation
+LiNO3/UiO-66,-,"273 K, 1 bar",3.38,-,-,-,-,-,-,Fd61 [113],Post-synthetic metalation
+Li/UiO-66,1111,"273 K, 1 bar",4.01,-,-,-,-,-,-,Fd61 [113],Post-synthetic metalation
+UiO-66-SO3H-0.15,949,"298 K, 1 bar",2.23,0.25,0.49,-,-,-,-,Fo58 [114],Post-synthetic metalation
+UiO-66-SO3Li-0.15,1642,"298 K, 1 bar",3.28,0.28,0.71,-,-,-,-,Fo58 [114],Post-synthetic metalation
+UiO-66-SO3Na-0.15,1378,"298 K, 1 bar",3.13,0.17,0.52,-,-,-,-,Fo58 [114],Post-synthetic metalation
+UiO-66-SO3K-0.15,1479,"298 K, 1 bar",2.79,0.24,0.70,-,-,-,-,Fo58 [114],Post-synthetic metalation
+UiO-66-SO3Rb-0.15,1368,"298 K, 1 bar",2.37,0.20,0.44,-,-,-,-,Fo58 [114],Post-synthetic metalation
+UiO-66(Zr)-(COOH)2,441,"298 K, 1 bar",0.79,,-,-,37.9,-,-,Fb61 [115],Post-synthetic metalation
+UiO-66(Zr)-(COOLi)2,532,"298 K, 1 bar",1.36,,-,-,50.8,-,-,Fb61 [115],Post-synthetic metalation
+UiO-66(Zr)-(COONa)2,236,"298 K, 1 bar",0.73,,-,-,58.0,-,-,Fb61 [115],Post-synthetic metalation
+UiO-66(Zr)-(COOK)2,184,"298 K, 1 bar",0.59,,-,-,69.3,-,-,Fb61 [115],Post-synthetic metalation
+UiO-66,1525,"298 K, 1 bar",1.79,0.144,-,-,-,-,-,Fc61 [116],Post-synthetic metalation
+UiO-66,1525,"273 K, 1 bar",3.12,0.235,-,-,-,-,-,Fc61 [116],Post-synthetic metalation
+UiO-66-SO3H,11,"298 K, 1 bar",0.32,0.046,-,-,-,-,-,Fc61 [116],Post-synthetic metalation
+UiO-66-SO3H,11,"273 K, 1 bar",0.67,0.121,-,-,-,-,-,Fc61 [116],Post-synthetic metalation
+UiO-66-SO3Li,148,"298 K, 1 bar",0.89,0.129,-,-,-,-,-,Fc61 [116],Post-synthetic metalation
+UiO-66-SO3Li,148,"273 K, 1 bar",1.36,0.225,-,-,-,-,-,Fc61 [116],Post-synthetic metalation
+UiO-66-SO3Na,95,"298 K, 1 bar",0.74,0.158,-,-,-,-,-,Fc61 [116],Post-synthetic metalation
+UiO-66-SO3Na,95,"273 K, 1 bar",1.08,0.251,-,-,-,-,-,Fc61 [116],Post-synthetic metalation
+UiO-66-SO3K,26,"298 K, 1 bar",0.91,0.076,-,-,-,-,-,Fc61 [116],Post-synthetic metalation
+UiO-66-SO3K,26,"273 K, 1 bar",1.95,0.213,-,-,-,-,-,Fc61 [116],Post-synthetic metalation
+UiO-66,1390,"273 K, 1 bar",2.3,-,-,-,-,-,-,Fa61 [212],Post-synthetic exchange
+UiO-66-Ti32,1418,"273 K, 1 bar",2.5,-,-,-,-,-,-,Fa61 [212],Post-synthetic exchange
+UiO-66-Ti44,1749,"273 K, 1 bar",3.5,-,-,-,-,-,-,Fa61 [212],Post-synthetic exchange
+UiO-66-Ti56,1844,"273 K, 1 bar",4.0,-,-,-,-,-,-,Fa61 [212],Post-synthetic exchange
+UiO-66,1263,"273 K, 1.2 bar",2.53,-,-,-,-,-,-,Pu0 [213],Post-synthetic exchange
+Ti1-UiO-66,1263,"273 K, 1.2 bar",2.83,-,-,-,-,-,-,Pu0 [213],Post-synthetic exchange
+Ti5-UiO-66,1359,"273 K, 1.2 bar",3.06,-,-,-,-,-,-,Pu0 [213],Post-synthetic exchange
+Ti10-UiO-66,1328,"273 K, 1.2 bar",3.07,-,-,-,-,-,-,Pu0 [213],Post-synthetic exchange
+Ti15-UiO-66,1249,"273 K, 1.2 bar",2.83,-,-,-,-,-,-,Pu0 [213],Post-synthetic exchange
+UiO-66,1057,"298 K, 1 atm",1.96 (1.18)e,-,0.50,-,-,(6.87)e,-,Fo60 [61],Post-synthetic exchange
+UiO-66-AD4,942,"298 K, 1 atm",1.92 (1.21)e,-,0.45,-,-,(8.04)e,-,Fo60 [61],Post-synthetic exchange
+UiO-66-AD6,1020,"298 K, 1 atm",2.36 (1.60)e,,0.48,,,(10.0)e,,Fo60 [61],Post-synthetic exchange
+UiO-66-AD8,901,"298 K, 1 atm",1.83 (1.17)e,-,0.45,-,-,(7.31)e,-,Fo60 [61],Post-synthetic exchange
+UiO-66-AD10,213,"298 K, 1 atm",0.57 (0.34)e,-,0.13,-,-,(9.29)e,-,Fo60 [61],Post-synthetic exchange
+UiO-66,1370,"298 K, 1 bar",2.20,-,-,-,-,-,-,Fg54 [23],Post-synthetic exchange
+UiO-66-(COOLi)2-EX,870,"298 K, 1 bar",1.65,-,-,-,-,-,-,Fg54 [23],Post-synthetic exchange
+UiO-66-(COONa)2-EX,869,"298 K, 1 bar",1.98,-,-,-,-,-,-,Fg54 [23],Post-synthetic exchange
+UiO-66-(COOK)2-EX,554,"298 K, 1 bar",1.33,-,-,-,-,-,-,Fg54 [23],Post-synthetic exchange
+UiO-66-(COOH)4-EX,677,"298 K, 1 bar",1.50,-,-,-,-,-,-,Fg54 [23],Post-synthetic exchange
+UiO-66-(COOLi)4-EX,970,"298 K, 1 bar",2.34,-,-,-,-,-,-,Fg54 [23],Post-synthetic exchange
+UiO-66-(COONa)4-EX,639,"298 K, 1 bar",1.20,-,-,-,-,-,-,Fg54 [23],Post-synthetic exchange
+UiO-66-(COOK)4-EX,204,"298 K, 1 bar",0.61,-,-,-,-,-,-,Fg54 [23],Post-synthetic exchange
+UiO-66,1250,"273 K, 1 bar",4.33,-,-,-,-,-,-,Fg57 [111],Hydrophobic UiO-66-based MOFs
+UiO-66-(CH3)2,868,"273 K, 1 bar",5.80,-,-,-,-,-,-,Fg57 [111],Hydrophobic UiO-66-based MOFs
+Ce-UiO-66-(CH3)2,845,"273 K, 1 bar",1.52,-,-,-,-,-,-,Fk59 [214],Hydrophobic UiO-66-based MOFs
+UiO-66,1160,"303 K, 2 bar",2.4,-,0.8,-,-,-,-,Fy74 [215],Hydrophobic UiO-66-based MOFs
+UiO-66-DM,811,"303 K, 2 bar",2.5,-,1.1,-,-,-,-,Fy74 [215],Hydrophobic UiO-66-based MOFs
+UiO-66(Zr)-NH2,1380,"298 K, 1 bar",3.09,0.29,-,-,24.9,-,-,Fh55 [106],Hydrophobic UiO-66-based MOFs
+UiO-66(Zr)-NH2-F4-0.27,1080,"298 K, 1 bar",2.85,0.26,-,-,26.3,-,-,Fh55 [106],Hydrophobic UiO-66-based MOFs
+UiO-66(Zr)-NH2-F4-0.53,1250,"298 K, 1 bar",2.67,0.30,-,-,22.3,-,-,Fh55 [106],Hydrophobic UiO-66-based MOFs
+UiO-66(Zr)-NH2-F4-0.72,920,"298 K, 1 bar",1.76,0.26,-,-,12.3,-,-,Fh55 [106],Hydrophobic UiO-66-based MOFs
+UiO-66(Zr)-F4,690,"298 K, 1 bar",1.05,0.24,-,-,6.4,-,-,Fh55 [106],Hydrophobic UiO-66-based MOFs
+F4-UiO-66(Ce),641,"293 K, 1 bar",1.5,-,-,-,20,-,-,Fm59 [216],Hydrophobic UiO-66-based MOFs
+Zr-UiO-66-CCA,870,"273 K, 1 bar",2.0,-,-,-,-,-,-,Fa60 [217],Hydrophobic UiO-66-based MOFs
+Ce-UiO-66-CCA,1210,"273 K, 1 bar",1.6,-,-,-,-,-,-,Fa60 [217],Hydrophobic UiO-66-based MOFs
+Zr-UiO-66-PDC,1376,"298 K, 1 bar",4.54,-,-,-,-,-,-,Fb60 [218],Hydrophobic UiO-66-based MOFs
+Ce-UiO-66-PDC,768,"298 K, 1 bar",2.27,-,-,-,-,-,-,Fb60 [218],Hydrophobic UiO-66-based MOFs
+UiO-66-NH2,1336,"298 K, 1 bar",1.75,0.14,-,-,-,-,-,Fd60 [219],Hydrophobic UiO-66-based MOFs
+UiO-66-(NH2)(F3),1047,"298 K, 1 bar",2.45,0.18,-,-,-,-,-,Fd60 [219],Hydrophobic UiO-66-based MOFs
+UiO-66-(NH2)(F3)-CS,1221,"298 K, 1 bar",1.84,0.16,-,-,-,-,-,Fd60 [219],Hydrophobic UiO-66-based MOFs
+UiO-66(Zr)-(OH)2d,930,"298 K, 1 bar",1.83 (1.73),0.36 (0.29),-,-,29.0 (33.4),-,-,Fl59 [112],Hydrophobic UiO-66-based MOFs
+UiO-66(Zr)-(OPr)2d,574,"298 K, 1 bar",1.25 (1.08),0.27 (0.08),-,-,25.9 (76.6),-,-,Fl59 [112],Hydrophobic UiO-66-based MOFs
+Opt-UiO-66(Zr)-(OH)2,1230,"298 K, 1 bar",5.63,0.51,1.18,0.16,-,-,-,Fx53 [64],Pore size control
+Opt-UiO-66(Zr)-(OH)2,1230,"273 K, 1 bar",7.56,0.80,1.97,0.24,-,-,-,Fx53 [64],Pore size control
+Opt-UiO-66(Hf)-(OH)2,920,"298 K, 1 bar",4.06,0.31,0.85,0.04,-,-,-,"Fx53-fy53 [64, 74]",Pore size control
+Opt-UiO-66(Hf)-(OH)2,920,"273 K, 1 bar",4.93,0.49,1.29,0.08,-,-,-,"Fx53-fy53 [64, 74]",Pore size control
+UiO-66(Hf),940,"298 K, 1 bar",1.50,0.13,0.41,Minimal,-,-,-,Fy53 [74],Pore size control
+UiO-66(Hf),940,"273 K, 1 bar",2.38,0.27,0.64,Minimal,-,-,-,Fy53 [74],Pore size control
+UiO-66(Hf)-NH2,1067,"298 K, 1 bar",2.80,0.25,0.60,0.14,-,-,-,Fy53 [74],Pore size control
+UiO-66(Hf)-NH2,1067,"273 K, 1 bar",3.99,0.47,0.97,0.23,-,-,-,Fy53 [74],Pore size control
+UiO-66(Hf)-(COOH)2,378,"298 K, 1 bar",1.20,0.13,0.28,0.07,-,-,-,Fy53 [74],Pore size control
+UiO-66(Hf)-(COOH)2,378,"273 K, 1 bar",1.67,0.22,0.48,0.13,-,-,-,Fy53 [74],Pore size control
+UiO-66(Hf)-(F)4,329,"298 K, 1 bar",0.82,0.10,0.19,0.04,-,-,-,Fy53 [74],Pore size control
+UiO-66(Hf)-(F)4,329,"273 K, 1 bar",1.23,0.17,0.36,0.09,-,-,-,Fy53 [74],Pore size control
+UiO-66,1404,"298 K, 1 bar",1.83,-,0.30,-,-,7.94,-,Fa62 [220],Pore size control
+UiO-66-NH2,876,"298 K, 1 bar",2.14,-,0.45,-,-,8.88,-,Fa62 [220],Pore size control
+UiO-66-DAM,860,"298 K, 1 bar",2.42,-,0.50,-,-,12.7,-,Fa62 [220],Pore size control
+Perfect UiO-66 (No AcOH),1000,"300 K, 10 bar",7.2,-,3.0,-,-,-,-,Fs62 [221],Defect engineering
+Defective UiO-66 (AcOH),1620,"300 K, 10 bar",5.6,-,2.8,-,-,-,-,Fs62 [221],Defect engineering
+Hydroxylated UiO-66,1370,"300 K, 10 bar",6.8,1.4,3.0,0.09,-,-,-,Fs62 [221],Defect engineering
+dehydroxylated UiO-66,1405,"300 K, 10 bar",6.0,1.2,2.7,0.09,-,-,-,Fs62 [221],Defect engineering
+d-UiO-66-NH2,1378,"298 K, 1 bar",2.5,-,-,-,33.3,-,-,Uw1 [222],Defect engineering
+Perfect UiO-66,1127,"298 K, 1 bar",2.16,-,-,-,-,-,-,Fm62 [60],Defect engineering
+d-UiO-66-0.05HCl,1376,"298 K, 1 bar",1.97,-,-,-,-,-,-,Fm62 [60],Defect engineering
+d-UiO-66-1HCl,1427,"298 K, 1 bar",1.66,-,-,-,-,-,-,Fm62 [60],Defect engineering
+d-UiO-66-2HCl,1652,"298 K, 1 bar",1.61,-,-,-,-,-,-,Fm62 [60],Defect engineering
+d-UiO-66-0.05FA,1355,"298 K, 1 bar",1.61,-,-,-,-,-,-,Fm62 [60],Defect engineering
+d-UiO-66-1FA,1590,"298 K, 1 bar",1.54,-,-,-,-,-,-,Fm62 [60],Defect engineering
+d-UiO-66-2FA,1789,"298 K, 1 bar",1.42,-,-,-,-,-,-,Fm62 [60],Defect engineering
+UiO-(OH)2-50,439,"298 K, 1 bar",4.83,-,-,-,18.46,-,-,Fr62 [223],Defect engineering
+UiO-(OH)2-100,787,"298 K, 1 bar",5.20,-,-,-,18.92,-,-,Fr62 [223],Defect engineering
+UiO-(OH)2-150,1250,"298 K, 1 bar",6.23,-,-,-,19.50,-,-,Fr62 [223],Defect engineering
+UiO-(OH)2-200,1410,"298 K, 1 bar",5.94,-,-,-,17.44,-,-,Fr62 [223],Defect engineering
+UiO-(OH)2-250,960,"298 K, 1 bar",5.63,-,-,-,17.50,-,-,Fr62 [223],Defect engineering
+UiO-(OH)2-150-B,1130,"298 K, 1 bar",5.32,-,-,-,17.73,-,-,Fr62 [223],Defect engineering
+UiO-66(185),-,"273 K, 1 bar",3.72,-,-,-,-,-,-,Fe65 [224],Porous liquid MOFs
+UiO-66-NH2,-,"273 K, 1 bar",4.43,-,-,-,-,-,-,Fe65 [224],Porous liquid MOFs
+UiO-66-Br2,-,"273 K, 1 bar",2.70,-,-,-,-,-,-,Fe65 [224],Porous liquid MOFs
+UiO-66(185)@xPDMS,-,"273 K, 1 bar",3.21,-,-,-,-,-,-,Fe65 [224],Porous liquid MOFs
+UiO-66-NH2@xPDMS,-,"273 K, 1 bar",3.17,-,-,-,-,-,-,Fe65 [224],Porous liquid MOFs
+UiO-66-Br2@xPDMS,-,"273 K, 1 bar",1.22,-,-,-,-,-,-,Fe65 [224],Porous liquid MOFs
+PL1,-,"273 K, 1 bar",1.38,-,-,-,-,-,-,Fe65 [224],Porous liquid MOFs
+PL2,-,"273 K, 1 bar",1.29,-,-,-,-,-,-,Fe65 [224],Porous liquid MOFs
+PL3,-,"273 K, 1 bar",0.55,-,-,-,-,-,-,Fe65 [224],Porous liquid MOFs
+PDMS4k,-,"273 K, 1 bar",0.11,-,-,-,-,-,-,Fe65 [224],Porous liquid MOFs
+UiO-66,874,"298 K, 10 bar",4.50,-,-,-,-,-,-,Fl65 [225],Porous liquid MOFs
+D2000@UiO-66,626,"298 K, 10 bar",3.7,-,-,-,-,-,-,Fl65 [225],Porous liquid MOFs
+[M2070][IPA],-,"298 K, 10 bar",0.65,-,-,-,-,-,-,Fl65 [225],Porous liquid MOFs
+UiO-66-liquid (10%),-,"298 K, 10 bar",0.89,-,-,-,-,-,-,Fl65 [225],Porous liquid MOFs
+UiO-66-liquid (30%),-,"298 K, 10 bar",1.27,-,-,-,-,-,-,Fl65 [225],Porous liquid MOFs
+UiO-66-liquid (50%),-,"298 K, 10 bar",1.63,-,-,-,-,-,-,Fl65 [225],Porous liquid MOFs
+SIT-M1000,-,"298 K, 10 bar",0.77,-,-,-,-,-,-,Fe58 [226],Porous liquid MOFs
+UiO-66-liquid-M1000 PLs,-,"298 K, 10 bar",1.95,-,-,-,-,-,-,Fe58 [226],Porous liquid MOFs
+SIT-M2070,-,"298 K, 10 bar",1.40,-,-,-,-,-,-,Fe58 [226],Porous liquid MOFs
+UiO-66-liquid-M2070 PLs,-,"298 K, 10 bar",2.68,-,-,-,-,-,-,Fe58 [226],Porous liquid MOFs
+SIT-Eth,-,"298 K, 10 bar",2.65,-,-,-,-,-,-,Fe58 [226],Porous liquid MOFs
+UiO-66-liquid-Eth PLs,-,"298 K, 10 bar",3.55,-,-,-,-,-,-,Fe58 [226],Porous liquid MOFs
+UiO-66-liquid,-,"298 K, 10 bar",0.86,-,-,-,-,-,-,Fq64 [227],Porous liquid MOFs
+UiO-66,838,"298 K, 1 bar",2.27,0.21,-,-,-,-,-,"Fa73-fb73 [28, 228]",UiO-66-based composite
+UiO-66/GO-1,923,"298 K, 1 bar",2.48,-,-,-,14.78,-,-,Fa73 [28],UiO-66-based composite
+UiO-66/GO-5,1184,"298 K, 1 bar",3.37,0.32,-,-,-,-,-,"Fa73-fb73 [28, 228]",UiO-66-based composite
+UiO-66/GO-10,1012,"298 K, 1 bar",3.14,-,-,-,18.84,-,-,Fa73 [28],UiO-66-based composite
+UiO-66-NH2,822,"298 K, 1 bar",2.59,0.17,-,-,22.83,-,-,Fb73 [228],UiO-66-based composite
+UiO-66-NH2/GO,1052,"298 K, 1 bar",3.80,0.28,-,-,28.45,-,-,Fb73 [228],UiO-66-based composite
+UiO-66,1192,"273 K, 1 bar",2.51,-,-,-,-,-,-,Fe73 [229],UiO-66-based composite
+UiO-66,1192,"293 K, 1 bar",1.73,-,-,-,-,-,-,Fe73 [229],UiO-66-based composite
+UiO-66-nGr-1,1598,"273 K, 1 bar",2.99,-,-,-,-,-,-,Fe73 [229],UiO-66-based composite
+UiO-66-nGr-1,1598,"293 K, 1 bar",2.02,-,-,-,-,-,-,Fe73 [229],UiO-66-based composite
+UiO-66-nGr-2,1623,"273 K, 1 bar",2.87,-,-,-,-,-,-,Fe73 [229],UiO-66-based composite
+UiO-66-nGr-2,1623,"293 K, 1 bar",1.99,-,-,-,-,-,-,Fe73 [229],UiO-66-based composite
+UiO-66-nGr-6,1526,"273 K, 1 bar",2.94,-,-,-,-,-,-,Fe73 [229],UiO-66-based composite
+UiO-66-nGr-6,1526,"293 K, 1 bar",1.99,-,-,-,-,-,-,Fe73 [229],UiO-66-based composite
+CP/PEG-PVP-UiO-66-NH2,441,"298 K, 1 bar",1.34,-,0.079,-,-,3.7,-,Ua1 [230],UiO-66-based composite
+CP-PEGPVP-UiO-66-ZrCl4,441,"273 K, 1 bar",2.31,-,0.092,-,-,-,-,Ug1 [231],UiO-66-based composite
+UiO-66-(OH)2,392,"298 K, 1 bar",3.17,-,-,-,-,-,-,Uw5 [230],UiO-66-based composite
+UiO-66-(OH)2/GO (0.15),716,"298 K, 1 bar",4.31,-,-,-,-,-,-,Uw5 [230],UiO-66-based composite
+AC,58,"298 K, 5 bar",0.817,0.456,-,-,-,-,-,Uw6 [232],UiO-66-based composite
+AC/NH2-MIL-101(Cr),217,"298 K, 5 bar",1.271,0.614,-,-,-,-,-,Uw6 [232],UiO-66-based composite
+AC/UiO-66-NH2(Zr),359,"298 K, 5 bar",1.627,0.733,-,-,-,-,-,Uw6 [232],UiO-66-based composite
+UiO-66/zeolite-10,1939,"298 K, 30 bar",14.9,-,-,-,-,-,-,Ue2 [233],UiO-66-based composite
+MIL-101(Cr),2798,"298 K, 1 bar",3.01,-,-,-,-,-,-,Uy1 [234],UiO-66-based composite
+UiO-66,1134,"298 K, 1 bar",2.66,-,-,-,-,-,-,Uy1 [234],UiO-66-based composite
+MIL-101(Cr)/UiO-66,2098,"298 K, 1 bar",2.37,-,-,-,-,-,-,Uy1 [234],UiO-66-based composite
+iCOP,-,"273 K, 1 bar",0.99,-,-,-,-,-,-,Up6 [235],UiO-66-based composite
+NH2-UiO-66,1003,"273 K, 1 bar",3.17,-,-,-,-,-,-,Up6 [235],UiO-66-based composite
+M@iCOP-100,162,"273 K, 1 bar",3.33,-,-,-,-,-,-,Up6 [235],UiO-66-based composite
+UiO-66-NH2,-,"298 K, 1 bar",2.68,0.157,-,-,17.1,-,-,Fk89 [236],UiO-66-based composite
+ZIF-8,-,"298 K, 1 bar",0.788,0.068,-,-,11.6,-,-,Fk89 [236],UiO-66-based composite
+UiO-66-NH2@ZIF-8,-,"298 K, 1 bar",2.33,0.043,-,-,54.2,-,-,Fk89 [236],UiO-66-based composite
+Cu-BTC,1116,"298 K, 1 bar",1.07,-,-,-,-,-,-,Fc92 [237],UiO-66-based composite
+UiO-66,1272,"298 K, 1 bar",0.85,-,-,-,-,-,-,Fc92 [237],UiO-66-based composite
+Cu-BTC/UiO-66,255,"298 K, 1 bar",1.32,-,-,-,-,-,-,Fc92 [237],UiO-66-based composite
+UiO-66/Cu-BTC,693,"298 K, 1 bar",1.42,-,-,-,-,-,-,Fc92 [237],UiO-66-based composite
+UiO-66,1268,"273 K, 1 bar",4.42,-,-,-,-,-,-,Fu95 [238],UiO-66-based composite
+TiO2,213,"273 K, 1 bar",0.78,-,-,-,-,-,-,Fu95 [238],UiO-66-based composite
+TiO2/UiO-66 (TU-10),452,"273 K, 1 bar",3.52,-,-,-,-,-,-,Fu95 [238],UiO-66-based composite
+UiO-66-NH2/2.0GR,791,"273 K, 1 bar",3.26,-,-,-,-,-,-,Fz95 [239],UiO-66-based composite
+NH2-UiO-66,871,"298 K, 1 bar",1.30,-,-,-,-,-,-,Fs95 [240],UiO-66-based composite
+TiO2,42,"298 K, 1 bar",0.06,-,-,-,-,-,-,Fs95 [240],UiO-66-based composite
+NH2-UiO-66/TiO2,284,"298 K, 1 bar",0.56,-,-,-,-,-,-,Fs95 [240],UiO-66-based composite
+UiO-66,1229,"298 K, 1 bar",2.96,-,-,-,-,-,-,Fr95 [241],UiO-66-based composite
+1.0%Bi2S3/UiO-66,1248,"298 K, 1 bar",2.65,-,-,-,-,-,-,Fr95 [241],UiO-66-based composite
+M-1.9%Bi2S3/UiO-66,521,"298 K, 1 bar",1.83,-,-,-,-,-,-,Fr95 [241],UiO-66-based composite
+UiO-66,1611,"298 K, 1 bar",1.71,-,-,-,-,-,-,Fx95 [242],UiO-66-based composite
+Bulk CN,48,"298 K, 1 bar",0.049,-,-,-,-,-,-,Fx95 [242],UiO-66-based composite
+UiO-66/bulk CN,1340,"298 K, 1 bar",1.60,-,-,-,-,-,-,Fx95 [242],UiO-66-based composite
+CNNS,109,"298 K, 1 bar",0.165,-,-,-,-,-,-,Fx95 [242],UiO-66-based composite
+UiO-66/CNNS,1315,"298 K, 1 bar",1.56,-,-,-,-,-,-,Fx95 [242],UiO-66-based composite

@@ -1,0 +1,14 @@
+adsorbent,sbet_m2_g,crystal_density_g_cm3,co2_uptake_mmol_cm3_0p1bar,co2_uptake_mmol_cm3_0p15bar,co2_uptake_mmol_cm3_1bar,co2_uptake_mg_g_0p1bar,co2_uptake_mg_g_0p15bar,co2_uptake_mg_g_1bar,reference
+Zeolite 13X,570,1.13,61,70,125,108,121,210,[65]
+Mg-MOF-74,"1,640",0.91,101,120,165,252,260,360,[24-26]
+Mg22(dobdc)-(N2H4)1.8,"1,012",1.18,133,137,145,224,228,242,[66]
+mmen-Mg2(dobpdc),675,1.16,89,92,107,150,154,180,[67-69]
+SIFSIX-3-Zn,250,1.57,84,85,90,105,106,112,[70]
+SIFSIX-2-Cu-i,734,1.24,48,66,151,76,105,238,
+UTSA-16,628,1.66,70,88,160,82,104,189,[71]
+UiO-66(Zr),"1,525",1.23,7,10,49,12,16,79,[72]
+Opt-UiO-66(Zr)-(OH)2,"1,230",< 1.36,60,77,172,86,110,247,[64]
+UiO-66(Hf),694,1.63,9,13,55,11,16,66,[73]
+Opt-UiO-66(Hf)-(OH)2,922,< 1.82,59,75,167,64,80,179,[74]
+UiO-66(Hf)-NH2,"1,067",1.71,27,36,108,30,41,123,
+"H4dobdc = 2,5-dihydroxy-1,4-benzenedicarboxylic acid; mmen = N,N-dimethylethylenediamine; H4dobpdc = 4,4′-dihydroxybiphenyl-3,3′-dicarboxylic acid.","H4dobdc = 2,5-dihydroxy-1,4-benzenedicarboxylic acid; mmen = N,N-dimethylethylenediamine; H4dobpdc = 4,4′-dihydroxybiphenyl-3,3′-dicarboxylic acid.","H4dobdc = 2,5-dihydroxy-1,4-benzenedicarboxylic acid; mmen = N,N-dimethylethylenediamine; H4dobpdc = 4,4′-dihydroxybiphenyl-3,3′-dicarboxylic acid.","H4dobdc = 2,5-dihydroxy-1,4-benzenedicarboxylic acid; mmen = N,N-dimethylethylenediamine; H4dobpdc = 4,4′-dihydroxybiphenyl-3,3′-dicarboxylic acid.","H4dobdc = 2,5-dihydroxy-1,4-benzenedicarboxylic acid; mmen = N,N-dimethylethylenediamine; H4dobpdc = 4,4′-dihydroxybiphenyl-3,3′-dicarboxylic acid.","H4dobdc = 2,5-dihydroxy-1,4-benzenedicarboxylic acid; mmen = N,N-dimethylethylenediamine; H4dobpdc = 4,4′-dihydroxybiphenyl-3,3′-dicarboxylic acid.","H4dobdc = 2,5-dihydroxy-1,4-benzenedicarboxylic acid; mmen = N,N-dimethylethylenediamine; H4dobpdc = 4,4′-dihydroxybiphenyl-3,3′-dicarboxylic acid.","H4dobdc = 2,5-dihydroxy-1,4-benzenedicarboxylic acid; mmen = N,N-dimethylethylenediamine; H4dobpdc = 4,4′-dihydroxybiphenyl-3,3′-dicarboxylic acid.","H4dobdc = 2,5-dihydroxy-1,4-benzenedicarboxylic acid; mmen = N,N-dimethylethylenediamine; H4dobpdc = 4,4′-dihydroxybiphenyl-3,3′-dicarboxylic acid.","H4dobdc = 2,5-dihydroxy-1,4-benzenedicarboxylic acid; mmen = N,N-dimethylethylenediamine; H4dobpdc = 4,4′-dihydroxybiphenyl-3,3′-dicarboxylic acid."

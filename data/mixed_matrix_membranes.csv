@@ -1,0 +1,325 @@
+polymer,filler,loading_pct,conditions,co2_permeability_or_gpu,n2_permeability_or_gpu,ch4_permeability_or_gpu,h2_permeability_or_gpu,selectivity_co2_n2,selectivity_co2_ch4,selectivity_co2_h2,reference,category
+6FDA–ODA,UiO-66,0,"308 K, 10.34 bar",14.4,-,0.33,-,-,44.1,-,1b [180],Pure and direct functionalized UiO-66 MOFs
+6FDA–ODA,UiO-66,25,"308 K, 10.34 bar",50.4,-,1.10,-,-,46.1,-,1b [180],Pure and direct functionalized UiO-66 MOFs
+6FDA–ODA,NH2-UiO-66,25,"308 K, 10.34 bar",13.7,-,0.27,-,-,51.6,-,1b [180],Pure and direct functionalized UiO-66 MOFs
+CNF-NH2,UiO-66,10,"298 K, 3 bar",257,-,-,-,-,71.3,-,Ud5 [552],Pure and direct functionalized UiO-66 MOFs
+PVA/CTS,UiO-66,0,"298 K, 2 bar",62.5,0.69,-,-,89.77,-,-,Uj5 [441],Pure and direct functionalized UiO-66 MOFs
+PVA/CTS,UiO-66,3.75,"298 K, 2 bar",89.3,0.98,-,-,91.01,-,-,Uj5 [441],Pure and direct functionalized UiO-66 MOFs
+PVA/CTS,NH2-UiO-66,3.75,"298 K, 2 bar",98.3,1.05,-,-,93.47,-,-,Uj5 [441],Pure and direct functionalized UiO-66 MOFs
+CA,NH2-UiO-66,10,"298 K, 2 bar, binary CO2/CH4 (40:60) mixture",11.1,-,-,-,-,10,-,Uq4 [447],Pure and direct functionalized UiO-66 MOFs
+Polyetherimide,UiO-66,0,"298 K, 4 bar",1.9,-,-,5.3,-,-,0.34,Ux4 [452],Pure and direct functionalized UiO-66 MOFs
+Polyetherimide,UiO-66,10,"298 K, 4 bar",5.5,-,-,14.6,-,-,0.37,Ux4 [452],Pure and direct functionalized UiO-66 MOFs
+CA,NH2-UiO-66,0,"298 K, 3 bar",13.7,2.2,1.8,-,6.2,7.6,-,Ur4 [443],Pure and direct functionalized UiO-66 MOFs
+CA,NH2-UiO-66,20,"298 K, 3 bar",168.8,4.2,3.3,-,40.2,51.3,-,Ur4 [443],Pure and direct functionalized UiO-66 MOFs
+PI-TB,NH2-UiO-66,0,"308 K, 1 bar",156,7.6,5.0,-,20.5,31.2,-,Uw4 [453],Pure and direct functionalized UiO-66 MOFs
+PI-TB,NH2-UiO-66,30,"308 K, 1 bar",415,22.0,16.6,-,18.9,25.0,-,Uw4 [453],Pure and direct functionalized UiO-66 MOFs
+SDTF Blend,UiO-66,0,"308 K, 10 atm",16.5,0.87,0.44,35.3,18.9,37.7,0.47,Ub5 [456],Pure and direct functionalized UiO-66 MOFs
+SDTF Blend,UiO-66,35,"308 K, 10 atm",104.7,6.33,3.19,231.2,16.5,32.8,0.46,Ub5 [456],Pure and direct functionalized UiO-66 MOFs
+6FDA-BisP,UiO-66,0,"308 K, 10.34 bar, binary CO2/CH4 (50:50) mixture",33.9,-,1.2,-,-,27.5,-,Fb85 [182],Pure and direct functionalized UiO-66 MOFs
+6FDA-BisP,UiO-66,17,"308 K, 10.34 bar, binary CO2/CH4 (50:50) mixture",108,-,2.6,-,-,41.9,-,Fb85 [182],Pure and direct functionalized UiO-66 MOFs
+6FDA-BisP,UiO-66,21,"308 K, 10.34 bar, binary CO2/CH4 (50:50) mixture",155,-,6.5,-,-,24.6,-,Fb85 [182],Pure and direct functionalized UiO-66 MOFs
+6FDA–DAM,,0,"308 K, 10.34 bar, binary CO2/CH4 (50:50) mixture",997,-,34,-,-,29.2,-,Fb85 [182],Pure and direct functionalized UiO-66 MOFs
+6FDA–DAM,,8,"308 K, 10.34 bar, binary CO2/CH4 (50:50) mixture",1728,-,54,-,-,32,-,Fb85 [182],Pure and direct functionalized UiO-66 MOFs
+6FDA–DAM,,21,"308 K, 10.34 bar, binary CO2/CH4 (50:50) mixture",2358,-,187,-,-,12.7,-,Fb85 [182],Pure and direct functionalized UiO-66 MOFs
+6FDA–ODA,NH2-UiO-66,0,"308 K, 10.34 bar, binary CO2/CH4 (50:50) mixture",25.9,-,1.3,-,-,20.6,-,Fb85 [182],Pure and direct functionalized UiO-66 MOFs
+6FDA–ODA,NH2-UiO-66,17,"308 K, 10.34 bar, binary CO2/CH4 (50:50) mixture",43.3,-,0.8,-,-,57,-,Fb85 [182],Pure and direct functionalized UiO-66 MOFs
+6FDA–ODA,NH2-UiO-66,23,"308 K, 10.34 bar, binary CO2/CH4 (50:50) mixture",72,-,3.4,-,-,21.5,-,Fb85 [182],Pure and direct functionalized UiO-66 MOFs
+PU,UiO-66,0,"298 K, 4 bar",38.4,0.98,-,-,39.2,-,-,Fr84 [448],Pure and direct functionalized UiO-66 MOFs
+PU,UiO-66,28,"298 K, 4 bar",75.2,2.2,-,-,34.2,-,-,Fr84 [448],Pure and direct functionalized UiO-66 MOFs
+PEBA,UiO-66,0,"298 K, 3 bar, mixed gas",51.5,1.22,-,-,42.1,-,-,Fa85 [444],Pure and direct functionalized UiO-66 MOFs
+PEBA,UiO-66,10,"298 K, 3 bar, mixed gas",96.3,1.73,-,-,56.6,-,-,Fa85 [444],Pure and direct functionalized UiO-66 MOFs
+PEBA,UiO-66-NH2,10,"298 K, 3 bar, mixed gas",87.0,1.32,-,-,66.1,-,-,Fa85 [444],Pure and direct functionalized UiO-66 MOFs
+PEBA,UiO-66,0,"293 K, 3 bar",50,1.09,-,-,46,-,-,Fa85 [444],Pure and direct functionalized UiO-66 MOFs
+PEBA,UiO-66,10,"293 K, 3 bar",96,1.71,-,-,56,-,-,Fa85 [444],Pure and direct functionalized UiO-66 MOFs
+PEBA,UiO-66,20,"293 K, 3 bar",135,6.75,-,-,20,-,-,Fa85 [444],Pure and direct functionalized UiO-66 MOFs
+PEBA,UiO-66-NH2,10,"293 K, 3 bar",83,1.05,-,-,79,-,-,Fa85 [444],Pure and direct functionalized UiO-66 MOFs
+PEBA,UiO-66-NH2,20,"293 K, 3 bar",125,4.81,-,-,26,-,-,Fa85 [444],Pure and direct functionalized UiO-66 MOFs
+Pebax® 1657,UiO-66,10,"293 K, 3 bar",97.5,1.23,4.41,-,79.2,22.1,-,Fn84 [446],Pure and direct functionalized UiO-66 MOFs
+Pebax® 1657,UiO-66-NH2,10,"293 K, 3 bar",118.3,2.09,3.89,-,56.6,30.5,-,Fn84 [446],Pure and direct functionalized UiO-66 MOFs
+Matrimid 5218,UiO-66,10,"308 K, 5 bar, mixed gas",26,-,-,-,-,40,-,Fo84 [553],Pure and direct functionalized UiO-66 MOFs
+6FDA–DAM,UiO-66,0,"308 K, 5 bar, binary CO2:CH4 (30:70)",231,-,21.7,-,-,10.6,-,Fq84 [440],Pure and direct functionalized UiO-66 MOFs
+6FDA–DAM,UiO-66,14,"308 K, 5 bar, binary CO2:CH4 (30:70)",54.1,-,33.0,-,-,16.4,-,Fq84 [440],Pure and direct functionalized UiO-66 MOFs
+6FDA–DAM,UiO-66-NH2,16,"308 K, 5 bar, binary CO2:CH4 (30:70)",359,-,33.1,-,-,10.8,-,Fq84 [440],Pure and direct functionalized UiO-66 MOFs
+6FDA–DAM,UiO-66-NH-COCH3,16,"308 K, 5 bar, binary CO2:CH4 (30:70)",291,-,14.8,-,-,19.7,-,Fq84 [440],Pure and direct functionalized UiO-66 MOFs
+6FDA–DAM,UiO-66,0,"308 K, 5 bar, ternary CO2:CH4:H2S (30:65:5)",167,-,18.5,-,-,9.1,-,Fq84 [440],Pure and direct functionalized UiO-66 MOFs
+6FDA–DAM,UiO-66,14,"308 K, 5 bar, ternary CO2:CH4:H2S (30:65:5)",385,-,25.4,-,-,15.2,-,Fq84 [440],Pure and direct functionalized UiO-66 MOFs
+6FDA–DAM,UiO-66-NH2,16,"308 K, 5 bar, ternary CO2:CH4:H2S (30:65:5)",243,-,25.7,-,-,9.5,-,Fq84 [440],Pure and direct functionalized UiO-66 MOFs
+6FDA–DAM,UiO-66-NH-COCH3,16,"308 K, 5 bar, ternary CO2:CH4:H2S (30:65:5)",193,-,10.6,-,-,18.2,-,Fq84 [440],Pure and direct functionalized UiO-66 MOFs
+PBI,UiO-66(Hf)-(OH)2,0,"308 K, 5 bar",0.38,-,-,3.61,-,-,1/9.50,Fv84 [449],Pure and direct functionalized UiO-66 MOFs
+PBI,UiO-66(Hf)-(OH)2,10,"308 K, 5 bar",0.42,-,-,8.12,-,-,1/19.37,Fv84 [449],Pure and direct functionalized UiO-66 MOFs
+PBI,UiO-66(Hf)-(OH)2,30,"308 K, 5 bar",1.94,-,-,15.39,-,-,1/7.97,Fv84 [449],Pure and direct functionalized UiO-66 MOFs
+PBI,UiO-66(Hf)-(OH)2,10,"308 K, 5 bar, mixed gas",0.25,-,-,4.64,-,-,1/17.55,Fv84 [449],Pure and direct functionalized UiO-66 MOFs
+PI,UiO-66,0,"298 K, 5 bar",5.1,0.14,0.14,11.7,36.43,36.43,0.44,Fy84 [554],Pure and direct functionalized UiO-66 MOFs
+PI,UiO-66,15,"298 K, 5 bar",27.1,0.51,0.42,64.4,53.14,64.52,0.42,Fy84 [554],Pure and direct functionalized UiO-66 MOFs
+PSf,UiO-66-NH2,0,"308 K, 3 bar",5.6,0.19,0.21,-,30,27,-,Pn118 [482],Pure and direct functionalized UiO-66 MOFs
+PSf,UiO-66-NH2,30,"308 K, 3 bar",19,0.67,0.77,-,28,24,-,Pn118 [482],Pure and direct functionalized UiO-66 MOFs
+PSf,UiO-66-NH2,50,"308 K, 3 bar",43,1.65,1.80,-,26,24,-,Pn118 [482],Pure and direct functionalized UiO-66 MOFs
+PI,UiO-66-NH2,0,"298 K, 1 bar",397,309,121,456,1.28,3.28,0.87,Un9 [478],Pure and direct functionalized UiO-66 MOFs
+PI,UiO-66-NH2,2,"298 K, 1 bar",529,361,76,543,1.46,6.96,0.97,Un9 [478],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66,0,"298 K, 1 bar",4770,219,286,2710,21.78,16.68,1.76,Fi85 [479],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66,28.6,"298 K, 1 bar",4940,364,440,7530,13.57,11.23,0.66,Fi85 [479],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66-(COOH)2,28.6,"298 K, 1 bar",6090,296,401,3740,20.57,15.19,1.63,Fi85 [479],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66-NH2,28.6,"298 K, 1 bar",6310,293,474,3000,21.54,13.31,2.10,Fi85 [479],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66-NH2,9.1,binary CO2:CH4 (52.1:47.9),4337,-,193,-,-,28.2,-,Fi85 [479],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66-NH2,,ternary CO2:N2:O2 (80:10:10),4835,171,-,-,28.2,-,-,Fi85 [479],Pure and direct functionalized UiO-66 MOFs
+PI (ODPA-TMPDA),UiO-66,0,"308 K, 1 bar, binary CO2:N2 (20:80)",88,-,-,-,33.1,-,-,Fh85 [194],Pure and direct functionalized UiO-66 MOFs
+PI (ODPA-TMPDA),UiO-66,20,"308 K, 1 bar, binary CO2:N2 (20:80)",169,-,-,-,31.9,-,-,Fh85 [194],Pure and direct functionalized UiO-66 MOFs
+PI (ODPA-TMPDA),UiO-66-Br,20,"308 K, 1 bar, binary CO2:N2 (20:80)",200,-,-,-,34.5,-,-,Fh85 [194],Pure and direct functionalized UiO-66 MOFs
+PI (ODPA-TMPDA),UiO-66-NH2,20,"308 K, 1 bar, binary CO2:N2 (20:80)",142,-,-,-,37.1,-,-,Fh85 [194],Pure and direct functionalized UiO-66 MOFs
+PI (ODPA-TMPDA),UiO-66-(OH)2,20,"308 K, 1 bar, binary CO2:N2 (20:80)",125,-,-,-,38.9,-,-,Fh85 [194],Pure and direct functionalized UiO-66 MOFs
+TB,UiO-66,0,"308 K, 2 bar,",220.6,14.2,11.3,350.2,15.5,19.5,0.63,Ue9 [484],Pure and direct functionalized UiO-66 MOFs
+TB,UiO-66,30,"308 K, 2 bar,",1034.8,72.1,70.9,1160.7,14.3,14.6,0.89,Ue9 [484],Pure and direct functionalized UiO-66 MOFs
+TB,UiO-66-Br,40,"308 K, 2 bar,",764.4,40.0,49.0,1127.8,19.1,15.6,0.68,Ue9 [484],Pure and direct functionalized UiO-66 MOFs
+PI,UiO-66,0,"308 K, 9 bar, binary CO2:CH4 (50:50)",5.9,-,-,-,-,31.2,-,Fg85 [480],Pure and direct functionalized UiO-66 MOFs
+PI,UiO-66,30,"308 K, 9 bar, binary CO2:CH4 (50:50)",15.7,-,-,-,-,35.8,,Fg85 [480],Pure and direct functionalized UiO-66 MOFs
+PI,UiO-66-BA,30,"308 K, 9 bar, binary CO2:CH4 (50:50)",17.8,-,-,-,-,42.9,,Fg85 [480],Pure and direct functionalized UiO-66 MOFs
+PI,UiO-66-ABA,30,"308 K, 9 bar, binary CO2:CH4 (50:50)",13.6,-,-,-,-,45.1,,Fg85 [480],Pure and direct functionalized UiO-66 MOFs
+PI,NH2-UiO-66,30,"308 K, 9 bar, binary CO2:CH4 (50:50)",17.8,-,-,-,-,37.3,,Fg85 [480],Pure and direct functionalized UiO-66 MOFs
+PI,NH2-UiO-66-BA,30,"308 K, 9 bar, binary CO2:CH4 (50:50)",17.4,-,-,-,-,39.3,,Fg85 [480],Pure and direct functionalized UiO-66 MOFs
+PI,NH2-UiO-66-ABA,30,"308 K, 9 bar, binary CO2:CH4 (50:50)",38.0,-,-,-,-,47.7,,Fg85 [480],Pure and direct functionalized UiO-66 MOFs
+6FDA-DAM/ODA,UiO-66-NH2,0,"303 K, 1 bar",~100,-,-,-,-,44.1,-,Ua9 [464],Pure and direct functionalized UiO-66 MOFs
+6FDA-DAM/ODA,UiO-66-NH2,10,"303 K, 1 bar",~245,-,-,-,-,57.2,-,Ua9 [464],Pure and direct functionalized UiO-66 MOFs
+Pebax-2533,H-UiO-66,10,"298 K, 1 bar",809.3,-,-,-,43.5,-,-,Uk9 [486],Pure and direct functionalized UiO-66 MOFs
+PAO-PIM-1,NH2-UiO-66,0,"308 K, 1 bar",2902,103,121,-,28.0,24.0,-,Pe105 [466],Pure and direct functionalized UiO-66 MOFs
+PAO-PIM-1,NH2-UiO-66,7,"308 K, 1 bar",3825,128,157,-,30.0,24.3,-,Pe105 [466],Pure and direct functionalized UiO-66 MOFs
+PAO-PIM-1,NH2-UiO-66,30,"308 K, 1 bar",9420,603,768,-,15.6,12.3,-,Pe105 [466],Pure and direct functionalized UiO-66 MOFs
+Matrimid®,UiO-66,0,"308 K, 4 bar",6.9,0.23,-,-,29.83,-,-,Fk86 [195],Pure and direct functionalized UiO-66 MOFs
+Matrimid®,UiO-66,10,"308 K, 4 bar",7.8,0.26,-,-,29.4,-,-,Fk86 [195],Pure and direct functionalized UiO-66 MOFs
+Matrimid®,Azo-UiO-66,10,"308 K, 4 bar",10,0.26,-,-,37,-,-,Fk86 [195],Pure and direct functionalized UiO-66 MOFs
+Matrimid®,Azo-UiO-66,20,"308 K, 4 bar",13,0.3,-,-,40,-,-,Fk86 [195],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66,0,"298 K, 1.38 bar",6526,553,-,-,11.80,-,-,Fl86 [481],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66,10,"298 K, 1.38 bar",10165,810,-,-,12.55,-,-,Fl86 [481],Pure and direct functionalized UiO-66 MOFs
+PIM-1,Azo(16.7)-UiO-66,10,"298 K, 1.38 bar",8874,690,-,-,12.72,-,-,Fl86 [481],Pure and direct functionalized UiO-66 MOFs
+PIM-1,Azo(33.3)-UiO-66,10,"298 K, 1.38 bar",8616,626,-,-,13.76,-,-,Fl86 [481],Pure and direct functionalized UiO-66 MOFs
+PIM-1,Azo(66.7)-UiO-66,10,"298 K, 1.38 bar",8821,620,-,-,14.23,-,-,Fl86 [481],Pure and direct functionalized UiO-66 MOFs
+PIM-1,Azo(100)-UiO-66,10,"298 K, 1.38 bar",9453,551,-,-,17.16,-,-,Fl86 [481],Pure and direct functionalized UiO-66 MOFs
+poly(PEGMA-co-PEGDMA),UiO-66-NH2-3h,10,"308 K, 10 bar, binary CO2:CH4 (10:90)",76.8,-,4.6,-,-,16.6,-,Fm88 [462],Pure and direct functionalized UiO-66 MOFs
+poly(PEGMA-co-PEGDMA),UiO-66-12h cluster,10,"308 K, 10 bar, binary CO2:CH4 (10:90)",151.9,-,8.5,-,-,17.8,-,Fm88 [462],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66-ref,0,"298 K, 4 bar",3054,190,210,1820,16.1,14.5,1.68,Pm118 [487],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66-ref,10,"298 K, 4 bar",2510,315,381,2560,16.5,13.7,0.98,Pm118 [487],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66-H,10,"298 K, 4 bar",2631,112,140,2985,23.5,18.8,0.88,Pm118 [487],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66-Br,10,"298 K, 4 bar",2846,132,166,2275,21.6,17.1,1.25,Pm118 [487],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66-NH2,10,"298 K, 4 bar",2869,104,102,2641,27.5,28.3,1.09,Pm118 [487],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66-NH2,40,"298 K, 4 bar",1727,72,79,2009,24.0,21.8,0.87,Pm118 [487],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66(CF3)2,0,"333 K, 1 bar",(755),(32),-,-,23.59,-,-,Uh9 [490],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66(CF3)2,8,"333 K, 1 bar",(1255),(33),-,-,38.0,-,-,Uh9 [490],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66(CF3)2,0,"333 K, 1 bar, RH=10%",(670),(28),-,-,23.93,-,-,Uh9 [490],Pure and direct functionalized UiO-66 MOFs
+PIM-1,UiO-66(CF3)2,8,"333 K, 1 bar, RH=10%",(1111),(25.4),-,-,43.74,-,-,Uh9 [490],Pure and direct functionalized UiO-66 MOFs
+Matrimid®,UiO-66-NH2 (I),0,"298 K, 1.38 bar",9,0.31,-,-,29,-,-,Ph10 [207],Post-synthetic modification of UiO-66-based MOFs
+Matrimid®,UiO-66-NH2 (I),23,"298 K, 1.38 bar",24,0.66,-,-,36.5,-,-,Ph10 [207],Post-synthetic modification of UiO-66-based MOFs
+Matrimid®,UiO-66-NH2 (I),40,"298 K, 1.38 bar",28,1.02,-,-,27.5,-,-,Ph10 [207],Post-synthetic modification of UiO-66-based MOFs
+Matrimid®,PA-UiO-66-NH2 (IPA),23,"298 K, 1.38 bar",29,0.78,-,-,37,-,-,Ph10 [207],Post-synthetic modification of UiO-66-based MOFs
+Matrimid®,PA-UiO-66-NH2 (IPA),40,"298 K, 1.38 bar",31,1.11,-,-,28,-,-,Ph10 [207],Post-synthetic modification of UiO-66-based MOFs
+Matrimid®,C10-UiO-66-NH2 (IC10),23,"298 K, 1.38 bar",22.5,0.80,-,-,28,-,-,Ph10 [207],Post-synthetic modification of UiO-66-based MOFs
+Matrimid®,SA-UiO-66-NH2 (ISA),23,"298 K, 1.38 bar",20,0.64,-,-,31,-,-,Ph10 [207],Post-synthetic modification of UiO-66-based MOFs
+Pebax,UiO-66-NH2,0,"298 K, 2 bar",294,-,-,-,-,25.8,-,Uc5 [555],Post-synthetic modification of UiO-66-based MOFs
+Pebax,UiO-66-NH2,5,"298 K, 2 bar",590,-,-,-,-,40.5,-,Uc5 [555],Post-synthetic modification of UiO-66-based MOFs
+Pebax,CTS-grafted UiO-66-NH2,5,"298 K, 2 bar",463,-,-,-,-,35.3,-,Uc5 [555],Post-synthetic modification of UiO-66-based MOFs
+AO-PIM-1,F-UiO-66,0,"308 K, 6.89 bar",316.9,11.4,11.3,-,27.8,28.0,-,Us8 [489],Post-synthetic modification of UiO-66-based MOFs
+AO-PIM-1,F-UiO-66,5,"308 K, 6.89 bar",664.1,15.0,19.4,-,44.3,34.2,-,Us8 [489],Post-synthetic modification of UiO-66-based MOFs
+6FDA-DAM,UiO-66,0,"308 K, 2 bar, binary CO2:CH4 (50:50)",997,-,34,-,-,29.2,-,Fg86 [208],Post-synthetic modification of UiO-66-based MOFs
+6FDA-DAM,UiO-66,8,"308 K, 2 bar, binary CO2:CH4 (50:50)",1728,-,54,-,-,32.0,-,Fg86 [208],Post-synthetic modification of UiO-66-based MOFs
+6FDA-DAM,UiO-66-NH2,6,"308 K, 2 bar, binary CO2:CH4 (50:50)",1160,-,34,-,-,34.1,-,Fg86 [208],Post-synthetic modification of UiO-66-based MOFs
+6FDA-DAM,UiO-66-NH-COCH3,16,"308 K, 2 bar, binary CO2:CH4 (50:50)",1263,-,38,-,-,33.1,-,Fg86 [208],Post-synthetic modification of UiO-66-based MOFs
+Matrimid®,UiO-66-NH2,0,"293 K, 3 bar, binary CO2:CH4 (50:50)",18.80,-,0.60,-,-,31.3,-,Fj86 [209],Post-synthetic modification of UiO-66-based MOFs
+Matrimid®,UiO-66-NH2,10,"293 K, 3 bar, binary CO2:CH4 (50:50)",49.24,-,1.10,-,-,44.8,-,Fj86 [209],Post-synthetic modification of UiO-66-based MOFs
+Matrimid®,UiO-66-NH2@ICA,10,"293 K, 3 bar, binary CO2:CH4 (50:50)",40.14,-,0.62,-,-,64.7,-,Fj86 [209],Post-synthetic modification of UiO-66-based MOFs
+Matrimid®,UiO-66-NH2@ICA,30,"293 K, 3 bar, binary CO2:CH4 (50:50)",50.89,-,1.31,-,-,38.8,-,Fj86 [209],Post-synthetic modification of UiO-66-based MOFs
+PSf,UiO-66,0,"298 K, 10 bar",6.11,0.22,0.23,-,28.35,26.98,-,Fj85 [495],Post-synthetic modification of UiO-66-based MOFs
+PSf,UiO-66,30,"298 K, 10 bar",19.95,0.48,0.58,-,41.60,34.58,-,Fj85 [495],Post-synthetic modification of UiO-66-based MOFs
+PSf,SO3H-UiO-66,30,"298 K, 10 bar",18.24,0.34,0.39,-,53.0,47.2,-,Fj85 [495],Post-synthetic modification of UiO-66-based MOFs
+6FDA-ODA,UiO-66,0,"308 K, 1 bar, binary CO2:CH4 (50:50)",13.36,-,0.37,-,-,35.95,-,Fh86 [497],Post-synthetic modification of UiO-66-based MOFs
+6FDA-ODA,UiO-66,15,"308 K, 1 bar, binary CO2:CH4 (50:50)",35.06,-,0.76,-,-,45.23,-,Fh86 [497],Post-synthetic modification of UiO-66-based MOFs
+6FDA-ODA,UiO-66-PEI,15,"308 K, 1 bar, binary CO2:CH4 (50:50)",28.23,-,0.50,-,-,56.49,-,Fh86 [497],Post-synthetic modification of UiO-66-based MOFs
+6FDA-ODA,UiO-66-NH2,10,"308 K, 1 bar, binary CO2:CH4 (50:50)",22.14,-,0.49,-,-,45.12,-,Fe86 [498],Post-synthetic modification of UiO-66-based MOFs
+6FDA-ODA,UiO-66-PEI@pSBMA,10,"308 K, 1 bar, binary CO2:CH4 (50:50)",26.55,-,0.53,-,-,50.29,-,Fe86 [498],Post-synthetic modification of UiO-66-based MOFs
+6FDA-ODA,UiO-66-PEI@pSBMA,15,"308 K, 1 bar, binary CO2:CH4 (50:50)",33.79,-,0.57,-,-,58.86,-,Fe86 [498],Post-synthetic modification of UiO-66-based MOFs
+6FDA-ODA,UiO-66-NH2,0,"308 K, 1 bar, binary CO2:CH4 (50:50), humidified state",60,-,1.5,-,-,40,-,Fe86 [498],Post-synthetic modification of UiO-66-based MOFs
+6FDA-ODA,UiO-66-NH2,10,"308 K, 1 bar, binary CO2:CH4 (50:50), humidified state",79,-,1.7,-,-,47,-,Fe86 [498],Post-synthetic modification of UiO-66-based MOFs
+6FDA-ODA,UiO-66-PEI@pSBMA,10,"308 K, 1 bar, binary CO2:CH4 (50:50), humidified state",140,-,2.5,-,-,56,-,Fe86 [498],Post-synthetic modification of UiO-66-based MOFs
+Pebax,PANI@UiO-66,30,"298 K, 10 bar",119,-,-,-,51,27,-,Ux8 [556],Post-synthetic modification of UiO-66-based MOFs
+PEI,UiO-66-NH2-PVP-PEI,0,"298 K, 1 bar, binary CO2:H2 (50:50),",21.08,-,-,9,-,-,2.34,Fi86 [501],Post-synthetic modification of UiO-66-based MOFs
+PEI,UiO-66-NH2-PVP-PEI,8,"298 K, 1 bar, binary CO2:H2 (50:50),",164.78,-,-,20,-,-,8.23,Fi86 [501],Post-synthetic modification of UiO-66-based MOFs
+PEI,UiO-66-NH2-PVP-PEI,18,"298 K, 1 bar, binary CO2:H2 (50:50),",393.70,-,-,31,-,-,12.70,Fi86 [501],Post-synthetic modification of UiO-66-based MOFs
+6FDA-durene,UiO-66-NH2,0,"303 K, 1 atm",973.90,76.60,66.0,-,12.71,14.76,-,Uj4 [503],Post-synthetic modification of UiO-66-based MOFs
+6FDA-durene,UiO-66-NH2,10,"303 K, 1 atm",2558.9,156.3,153.8,-,16.36,16.63,-,Uj4 [503],Post-synthetic modification of UiO-66-based MOFs
+6FDA-durene,PEG-UiO-66-NH2,10,"303 K, 1 atm",1671.0,88.6,74.6,-,18.86,22.40,-,Uj4 [503],Post-synthetic modification of UiO-66-based MOFs
+PVDF,UiO-66-NM@PEG,18.75,"298 K, 1 bar",537.6,-,-,-,47.8,-,-,Ug5 [504],Post-synthetic modification of UiO-66-based MOFs
+PDMS,,-,"298 K, 1 bar",724.1,-,-,-,21.1,-,-,Ug5 [504],Post-synthetic modification of UiO-66-based MOFs
+Pebax,PANI@UiO-66,-,"298 K, 1 bar",307.4,-,-,-,31.4,-,-,Ug5 [504],Post-synthetic modification of UiO-66-based MOFs
+PI,UiO-66-TMC,7,"298 K, 1 bar",616.1,-,-,-,55.3,-,-,Uq8 [505],Post-synthetic modification of UiO-66-based MOFs
+PI,UiO-66-PEG,7,"298 K, 1 bar",686,-,-,-,56.7,-,-,Uq8 [505],Post-synthetic modification of UiO-66-based MOFs
+Pebax,UiO-66-NH2,3,"303 K, 1 bar",93.24,-,-,-,77.7,-,-,Uf9 [494],Post-synthetic modification of UiO-66-based MOFs
+Pebax,KH560-UiO-66-NH2,3,"303 K, 1 bar",111.52,-,-,-,92.16,-,-,Uf9 [494],Post-synthetic modification of UiO-66-based MOFs
+Pebax,UiO-66-(OH)2@PIL,20,"298 K, 2 bar",132,-,-,-,71,-,-,Ui4 [506],Post-synthetic modification of UiO-66-based MOFs
+PIM-1,UiO-66,0,"298 K, 2 bar",3620,180,240,2430,20.11,15.08,1.49,Pu0 [213],Post-synthetic modification of UiO-66-based MOFs
+PIM-1,UiO-66,4.6,"298 K, 2 bar",5340,250,310,3590,21.36,17.23,1.49,Pu0 [213],Post-synthetic modification of UiO-66-based MOFs
+PIM-1,Ti1-UiO-66,4.8,"298 K, 2 bar",10350,430,660,4370,24.07,15.68,2.37,Pu0 [213],Post-synthetic modification of UiO-66-based MOFs
+PIM-1,Ti5-UiO-66,5.0,"298 K, 2 bar",13540,660,1220,5280,20.52,11.09,2.56,Pu0 [213],Post-synthetic modification of UiO-66-based MOFs
+PIM-1,Ti10-UiO-66,5.1,"298 K, 2 bar",7890,380,630,3330,20.76,12.52,2.37,Pu0 [213],Post-synthetic modification of UiO-66-based MOFs
+PIM-1,Ti10-UiO-66,13.3,"298 K, 2 bar",14740,1050,1390,8380,14.04,10.60,1.76,Pu0 [213],Post-synthetic modification of UiO-66-based MOFs
+PIM-1,Ti15-UiO-66,5.1,"298 K, 2 bar",7090,300,490,3510,23.63,14.47,2.02,Pu0 [213],Post-synthetic modification of UiO-66-based MOFs
+PIM-1,UiO-66-NH2,0,"293 K, 1 bar",7061.9,685.6,1121,-,10.3,6.3,-,[513] Fz84,Using interface agents
+PIM-1,UiO-66-NH2,10,"293 K, 1 bar",7500,576.9,1071,-,13,7,-,[513] Fz84,Using interface agents
+PIM-1,UiO-66-NH2@IL,10,"293 K, 1 bar",8283.4,324.8,673.4,-,25.5,12.3,-,[513] Fz84,Using interface agents
+Pebax-1657,UiO-66,0,"298 K, 10 bar",82,1.7,3.8,-,48.24,21.58,-,Uh5 [472],Using interface agents
+Pebax-1657,UiO-66,0,"298 K, 10 bar",156,4.12,9.20,-,37.86,16.96,-,Uh5 [472],Using interface agents
+Pebax-1657,UiO-66@IL,30,"298 K, 10 bar",143,2.34,5.05,-,61.11,28.32,-,Uh5 [472],Using interface agents
+Pebax-1657,UiO-66-NH2,30,"298 K, 10 bar",138,2.12,4.18,-,65.30,33.12,-,Ug9 [474],Using interface agents
+Pebax-1657,UiO-66-NH2@IL,30,"298 K, 10 bar",135,1.72,3.92,-,78.49,34.44,-,Ug9 [474],Using interface agents
+Pebax,UiO-66-NH2,0,"308 K, 2 bar",120,-,-,-,40,-,-,Ur8 [502],Using interface agents
+Pebax/PEG,,15,"308 K, 2 bar",210,-,-,-,130,-,-,Ur8 [502],Using interface agents
+6FDA-ODA,UiO-66-PEI,0,"308 K, 1 bar, binary CO2:CH4 (50:50)",13.36,-,0.37,-,-,36.11,-,[514] Ff86,Using interface agents
+6FDA-ODA,UiO-66-PEI,15,"308 K, 1 bar, binary CO2:CH4 (50:50)",28.5,-,0.50,-,-,57,-,[514] Ff86,Using interface agents
+6FDA-ODA,UiO-66-PEI@[bmim][Tf2N],15,"308 K, 1 bar, binary CO2:CH4 (50:50)",25.86,-,0.43,-,-,59.99,-,[514] Ff86,Using interface agents
+PES,UiO-66-NH2,0,"298 K, 1 bar",6.98,0.60,-,17.63,11.6,-,0.40,[508] Fx84,Using interface agents
+PES,UiO-66-NH2,15,"298 K, 1 bar",28.77,1.44,-,161.6,20.0,-,0.18,[508] Fx84,Using interface agents
+BPPO/PES,,0,"298 K, 1 bar",12.56,0.76,-,25.23,16.5,-,0.50,[508] Fx84,Using interface agents
+BPPO/PES,,15,"298 K, 1 bar",125.6,2.50,-,756.1,50.2,-,0.17,[508] Fx84,Using interface agents
+PU,UiO-66-IL-ClO4,30,"298 K, 6 bar",-,-,-,-,24.4,15.3,-,[210] Fp41,Using interface agents
+PU,UiO-66-IL-ClO4,50,"298 K, 6 bar",-,-,-,-,32.3,18.3,-,[210] Fp41,Using interface agents
+PolyActive,NH2-UiO-66 (MOF),0,"308 K, 1 bar",202,4.58,-,-,44,-,-,[515] Fq88,Covalent cross-linking MOF-polymer interface
+PolyActive,NH2-UiO-66 (MOF),20,"308 K, 1 bar",5870,2790,-,-,2.1,-,-,[515] Fq88,Covalent cross-linking MOF-polymer interface
+PIM-PI-1,UiO-66-NH2,0,"303 K, 1 atm",2156.5,147.7,209.2,-,14.6,10.3,-,Uo4 [516],Covalent cross-linking MOF-polymer interface
+PIM-PI-1,UiO-66-NH2,10,"303 K, 1 atm",3895,289.2,329.5,-,13.4,11.8,-,Uo4 [516],Covalent cross-linking MOF-polymer interface
+PIM-PI-1,PIM-PI-1-grafted UiO-66-NH2,10,"303 K, 1 atm",3827.3,159.2,285.3,-,24.0,13.4,-,Uo4 [516],Covalent cross-linking MOF-polymer interface
+PIM-PI-1,Modified–NH2-UiO-66 (P@MOF1),20,"303 K, 1 atm",355,11.8,-,-,30,-,-,Uo4 [516],Covalent cross-linking MOF-polymer interface
+PIM-PI-1,Modified–NH2-UiO-66 (P@MOF2),20,"303 K, 1 atm",329,7.4,-,-,47,-,-,Uo4 [516],Covalent cross-linking MOF-polymer interface
+Cross-linked PEO,UiO-66-NH2,0,"308 K, 3.5 atm",406.7,8.12,25.67,-,50.1,15.84,-,[432] Fr88,Covalent cross-linking MOF-polymer interface
+Cross-linked PEO,UiO-66-NH2,4,"308 K, 3.5 atm",497.6,10.06,33.26,-,49.46,14.96,-,[432] Fr88,Covalent cross-linking MOF-polymer interface
+Cross-linked PEO,UiO-66-MA,4,"308 K, 3.5 atm",660.5,14.56,43.26,-,45.36,15.27,-,[432] Fr88,Covalent cross-linking MOF-polymer interface
+PDMS,UiO-66-allyl,0,"298 K, 1 bar",3013,298.7,-,-,10.4,-,-,[438] Fk88,Covalent cross-linking MOF-polymer interface
+PDMS,UiO-66-allyl,50,"298 K, 1 bar",2409,273.8,-,-,8.8,-,-,[438] Fk88,Covalent cross-linking MOF-polymer interface
+PDMS,Corona-MOF,50,"298 K, 1 bar",4573,457.3,-,-,10.0,-,-,[438] Fk88,Covalent cross-linking MOF-polymer interface
+Cross-linked PEG/PPG-PDMS,UiO-66-NH2,0,"303 K, 1 atm",437.0,7.8,25.2,-,56.2,17.4,-,Fg88 [437],Covalent cross-linking MOF-polymer interface
+Cross-linked PEG/PPG-PDMS,UiO-66-NH2,3,"303 K, 1 atm",180.3,4.3,12.6,-,41.5,14.3,-,Fg88 [437],Covalent cross-linking MOF-polymer interface
+Cross-linked PEG/PPG-PDMS,UiO-66-NB,3,"303 K, 1 atm",585.0,11.1,35.3,-,52.7,16.6,-,Fg88 [437],Covalent cross-linking MOF-polymer interface
+Cross-linked PEG/PPG-PDMS,UiO-66-NB,10,"303 K, 1 atm",362.4,7.4,22.4,-,49.0,16.2,-,Fg88 [437],Covalent cross-linking MOF-polymer interface
+Polynorbornene,UiO-66-ND,0,"303 K, 1 atm",16.4,0.05,-,53.9,328,-,0.30,Fx89 [436],Covalent cross-linking MOF-polymer interface
+Polynorbornene,UiO-66-ND,20,"303 K, 1 atm",14.9,0.07,-,91.8,212.86,-,0.16,Fx89 [436],Covalent cross-linking MOF-polymer interface
+Polynorbornene,UiO-66-ND,50,"303 K, 1 atm",31.2,8.5,-,213.2,3.67,-,0.15,Fx89 [436],Covalent cross-linking MOF-polymer interface
+PIM-1,UiO-66-CN,0,"298 K, 1.4 bar",3027.7,113.9,-,-,26.6,-,-,Fs88 [439],Covalent cross-linking MOF-polymer interface
+PIM-1,UiO-66-CN,20,"298 K, 1.4 bar",7070.9,265.2,-,-,26.7,-,-,Fs88 [439],Covalent cross-linking MOF-polymer interface
+sPIM-1,,0,"298 K, 1.4 bar",5928.8,252.8,-,-,23.5,-,-,Fs88 [439],Covalent cross-linking MOF-polymer interface
+sPIM-1,,20,"298 K, 1.4 bar",16121,596,-,-,27.0,-,-,Fs88 [439],Covalent cross-linking MOF-polymer interface
+sPIM-1,UiO-66-NH2,20,"298 K, 1.4 bar",8619.5,478.9,-,-,18.0,-,-,Fs88 [439],Covalent cross-linking MOF-polymer interface
+sPIM-1,UiO-66-CN,20,binary CO2:N2 (50:50),12063,225.5,-,-,53.4,-,-,Fs88 [439],Covalent cross-linking MOF-polymer interface
+PI (ODPA-DAM),UiO-66-NH2,0,"308 K, 3.1 bar",64.87,3.85,2.10,-,16.84,30.88,-,Fj88 [523],Covalent cross-linking MOF-polymer interface
+PI (ODPA-DAM),UiO-66-NH2,17,"308 K, 3.1 bar",110.95,9.70,4.61,-,11.44,24.09,-,Fj88 [523],Covalent cross-linking MOF-polymer interface
+PI (ODPA-DAM),UiO-66-NH2@PI,17,"308 K, 3.1 bar",102.67,4.32,2.03,-,23.76,50.51,-,Fj88 [523],Covalent cross-linking MOF-polymer interface
+6FDA-Durene,T-PSM-MOF (UiO-66-NH2),0,"308 K, 1 bar",1280,86,83,820,14.8,15.4,1.56,Fn88 [524],Covalent cross-linking MOF-polymer interface
+6FDA-Durene,T-PSM-MOF (UiO-66-NH2),30,"308 K, 1 bar",1710,106,100,1070,16.1,17.1,1.59,Fn88 [524],Covalent cross-linking MOF-polymer interface
+6FDA-Durene,C-PSM-MOF (UiO-66-NH2),30,"308 K, 1 bar",590,20,21,380,28.3,30.2,1.55,Fn88 [524],Covalent cross-linking MOF-polymer interface
+6FDA-Durene,PSM-MOF (UiO-66-NH2),40,"308 K, 1 bar",1890,109,107,1180,17.4,17.7,1.60,Fx88 [525],Covalent cross-linking MOF-polymer interface
+6FDA-Durene,UiO-66-NH2-PC,0,"308 K, 2 bar, binary CO2:CH4 (50:50)",750,-,-,-,-,22,-,Fp88 [526],Covalent cross-linking MOF-polymer interface
+6FDA-Durene,UiO-66-NH2-PC,26,"308 K, 2 bar, binary CO2:CH4 (50:50)",1200,-,-,-,-,29,-,Fp88 [526],Covalent cross-linking MOF-polymer interface
+6FDA-Durene,UiO-66-NH2-CG,26,"308 K, 2 bar, binary CO2:CH4 (50:50)",1380,-,-,-,-,40,-,Fp88 [526],Covalent cross-linking MOF-polymer interface
+COOH-PI,NH2-UiO-66,0,"298 K, 4 bar",368,26.5,23,538,13.89,16,0.68,Fi88 [557],Covalent cross-linking MOF-polymer interface
+COOH-PI,NH2-UiO-66,20,"298 K, 4 bar",995,56,43,1180,17.77,23.14,0.84,Fi88 [557],Covalent cross-linking MOF-polymer interface
+PSf,MOF-NP,0,"298 K, 1 bar",5.1,0.47,0.26,-,10.9,20.0,-,Fp85 [528],In-situ synthesis
+PSf,MOF-NP,10,"298 K, 1 bar",9.1,-,0.51,-,-,18.0,-,Fp85 [528],In-situ synthesis
+PSf,pMOF-MS,10,"298 K, 1 bar",11.2,0.69,0.43,-,16.2,26.1,-,Fp85 [528],In-situ synthesis
+PSf,pUiO-66-MS,10,"298 K, 1 bar",9.7,-,0.41,-,-,23.6,-,Fp85 [528],In-situ synthesis
+Matrimid®,UiO-66,0,"298 K, 1 bar",8,0.28,-,-,29,-,-,Fo85 [470],In-situ synthesis
+Matrimid®,UiO-66,6,"298 K, 1 bar",17,0.52,-,-,33,-,-,Fo85 [470],In-situ synthesis
+PIM-1 (method A),UiO-66,0,"298 K, 2 bar",6576,351,536,-,18.7,12.3,-,Fo88 [529],In-situ synthesis
+PIM-1 (method A),UiO-66,20,"298 K, 2 bar",7100,420,610,-,16.9,11.6,-,Fo88 [529],In-situ synthesis
+PIM-1 (method A),UiO-66-F12 h,20,"298 K, 2 bar",7910,457,633,-,17.3,12.5,-,Fo88 [529],In-situ synthesis
+"PIM-1 (method B, 12 h)",UiO-66-NH2,20,"298 K, 2 bar",15815,555,828,-,28.5,19.1,,Fo88 [529],In-situ synthesis
+"PIM-1 (method B, 72 h)",,20,"298 K, 2 bar",12498,230,392,-,54.2,31.9,,Fo88 [529],In-situ synthesis
+PMMA,UiO-66,0,"298 K, 4 bar",0.52,0.011,0.008,-,47,64.6,-,Ph102-2 [377],In-situ synthesis
+PMMA,UiO-66,15,"298 K, 4 bar",0.82,0.02,0.01,-,54.7,82.1,-,Ph102-2 [377],In-situ synthesis
+PMMA,NH2-UiO-66,20,"298 K, 4 bar",1.18,0.014,0.009,-,84.6,131.6,-,Ph102-2 [377],In-situ synthesis
+PMMA,GMA-UiO-66,28,"298 K, 4 bar",1.11,0.01,0.008,-,111.4,146.6,-,Ph102-2 [377],In-situ synthesis
+PEO-250:PETM:EDDT,UiO-66-CH=CH2,0,"308 K, 5 atm",80.7,1.6,5.2,-,50.5,15.6,-,Fc88 [530],In-situ synthesis
+PEO-250:PETM:EDDT,UiO-66-CH=CH2,30,"308 K, 5 atm",83.4,2.1,4.7,-,39.9,17.9,-,Fc88 [530],In-situ synthesis
+PEO-250:PETM:EDDT,UiO-66-CH=CH2,60,"308 K, 5 atm",467.7,33.1,58.7,-,14.1,8.0,-,Fc88 [530],In-situ synthesis
+APUH,UiO-66,0,"298 K, 6 bar",6.3,0.21,-,-,30.00,-,-,Pa300 [433],In-situ synthesis
+APUH,UiO-66,12,"298 K, 6 bar",12.1,0.31,-,-,38.78,-,-,Pa300 [433],In-situ synthesis
+APUH,NH2-UiO-66,15,"298 K, 6 bar",13.6,0.31,-,-,44.3,-,-,Pa300 [433],In-situ synthesis
+APUH,GMA-UiO-66,25,"298 K, 6 bar",14.5,0.27,-,-,53.25,-,-,Pa300 [433],In-situ synthesis
+PSf,UiO-66,0,"308 K, 1 bar",6,-,0.19,-,-,31,-,Fb89 [536],MOF composites
+PSf,UiO-66,8,"308 K, 1 bar",8,-,0.23,-,-,35,-,Fb89 [536],MOF composites
+PSf,Graphite oxide,8,"308 K, 1 bar",2.5,-,0.17,-,-,16,-,Fb89 [536],MOF composites
+PSf,UiO-66-graphite oxide,8,"308 K, 1 bar",7.5,-,0.21,-,-,36,-,Fb89 [536],MOF composites
+PSf,UiO-66 + graphite oxide,8,"308 K, 1 bar",7.5,-,0.20,-,-,37,-,Fb89 [536],MOF composites
+PI,UiO-66,0,"308 K, 1 bar",7.5,-,0.23,-,-,32,-,Fb89 [536],MOF composites
+PI,UiO-66,8,"308 K, 1 bar",19,-,0.45,-,-,42.5,-,Fb89 [536],MOF composites
+PI,Graphite oxide,8,"308 K, 1 bar",4,-,0.19,-,-,21,-,Fb89 [536],MOF composites
+PI,UiO-66-graphite oxide,8,"308 K, 1 bar",15,-,0.32,-,-,47,-,Fb89 [536],MOF composites
+PI,UiO-66 + graphite oxide,8,"308 K, 1 bar",12,-,0.28,-,-,42,-,Fb89 [536],MOF composites
+Pebax,UiO-66,0,"308 K, 1 bar",67.23,1.44,-,-,46.2,-,-,Uw8 [533],MOF composites
+Pebax,UiO-66,5,"308 K, 1 bar",156.24,2.54,-,-,62.0,-,-,Uw8 [533],MOF composites
+Pebax,MXene,5,"308 K, 1 bar",97.47,0.99,-,-,90.45,-,-,Uw8 [533],MOF composites
+Pebax,UiO-66/MXene,10,"308 K, 1 bar",216.96,2.09,-,-,100.52,-,-,Uw8 [533],MOF composites
+PI,GO,0,"298 K, 3 bar",2.28,0.079,-,-,28.9,-,-,Fa89 [537],MOF composites
+PI,GO,1,"298 K, 3 bar",3.15,0.049,-,-,64.3,-,-,Fa89 [537],MOF composites
+PI,UiO-66@GO,5,"298 K, 3 bar",3.56,0.10,-,-,35.6,-,-,Fa89 [537],MOF composites
+PI,UiO-66-NH2,5,"298 K, 3 bar",8.45,0.65,-,-,13.0,-,-,Fa89 [537],MOF composites
+PI,UiO-66-NH2@GO,5,"298 K, 3 bar",7.28,0.14,-,-,52.0,-,-,Fa89 [537],MOF composites
+PI,UiO-66-NH2@GO,20,"298 K, 3 bar",18.1,9.03,-,-,2.0,-,-,Fa89 [537],MOF composites
+PSf,UiO-66-NH2,0,"298 K, 1 bar",4.8,-,0.18,-,-,26.1,-,Fc89 [540],MOF composites
+PSf,UiO-66-NH2,5,"298 K, 1 bar",8.3,-,0.38,-,-,22.1,-,Fc89 [540],MOF composites
+PSf,TpPa-1 COF,5,"298 K, 1 bar",6.8,-,0.21,-,-,32,-,Fc89 [540],MOF composites
+PSf,MOF@COF,5,"298 K, 1 bar",7.1,-,0.15,-,-,46.7,-,Fc89 [540],MOF composites
+PSf,MOF@COF,10,"298 K, 1 bar",9.6,-,0.34,-,-,28.3,-,Fc89 [540],MOF composites
+PSf,UiO-66-NH2,0,"308 K, 3 bar",5.6,0.22,-,-,26,-,-,Fk89 [236],MOF composites
+PSf,UiO-66-NH2,40,"308 K, 3 bar",48.2,1.93,-,-,25,-,-,Fk89 [236],MOF composites
+PSf,ZIF@UiO-66-NH2,40,"308 K, 3 bar",45.2,1.16,-,-,39,-,-,Fk89 [236],MOF composites
+Pebax-1657,UiO-66@HNT,20,"298 K, 5 bar",119.08,-,-,-,76.26,-,-,Um4 [471],MOF composites
+Pebax® 1657/P84®,UiO-66,0,"308 K, 5 bar, binary CO2/CH4 (50:50)",(7.5),-,-,-,-,115,-,Fp84 [548],Thin film composite (TFC) membranes
+Pebax® 1657/P84®,UiO-66,10,"308 K, 5 bar, binary CO2/CH4 (50:50)",(11.5),-,-,-,-,55.6,-,Fp84 [548],Thin film composite (TFC) membranes
+Pebax® 1657/P84®,ZIF-8,10,"308 K, 5 bar, binary CO2/CH4 (50:50)",(7.7),-,-,-,-,65,-,Fp84 [548],Thin film composite (TFC) membranes
+Pebax® 1657/P84®,MIL-101(Cr),10,"308 K, 5 bar, binary CO2/CH4 (50:50)",(7.7),-,-,-,-,59,-,Fp84 [548],Thin film composite (TFC) membranes
+Pebax® 1657/P84®,ZFI-7/ZIF-8,10,"308 K, 5 bar, binary CO2/CH4 (50:50)",(7),-,-,-,-,50,-,Fp84 [548],Thin film composite (TFC) membranes
+Pebax® 1657/PMP,UiO-66,0,"298 K, 7 bar",246,-,11.7,-,-,21,-,Fu89 [549],Thin film composite (TFC) membranes
+Pebax® 1657/PMP,UiO-66,2,"298 K, 7 bar",369.3,-,11.8,-,-,31.3,-,Fu89 [549],Thin film composite (TFC) membranes
+Pebax® 1657/PMP,UiO-66-NH2,1.5,"298 K, 7 bar",393.4,-,9.9,-,-,39.8,-,Fu89 [549],Thin film composite (TFC) membranes
+Pebax-1657/PTMSP/PVDF,UiO-66,50,"298 K, 2 bar",(225),(5),-,-,45,-,-,Pf105 [550],Thin film composite (TFC) membranes
+Pebax-1657/PTMSP/PVDF,UiO-66-NH2,50,"298 K, 2 bar",(338),(6),-,-,57,-,-,Pf105 [550],Thin film composite (TFC) membranes
+Pebax-1657/PTMSP/PVDF,UiO-66-(COOH)2,50,"298 K, 2 bar",(240),(4.8),-,-,50,-,-,Pf105 [550],Thin film composite (TFC) membranes
+Pebax-1657/PTMSP/PVDF,ZIF-7,30,"298 K, 2 bar",(300),(6.3),-,-,48,-,-,Pf105 [550],Thin film composite (TFC) membranes
+PGMA-co-POEM/PTMSP/PVDF,UiO-66,0,"298 K, 1 bar",(51),(1.1),-,-,46.3,-,-,Fl88 [551],Thin film composite (TFC) membranes
+PGMA-co-POEM/PTMSP/PVDF,UiO-66,28.6,"298 K, 1 bar",(666),(29.7),-,-,22.4,-,-,Fl88 [551],Thin film composite (TFC) membranes
+PGMA-co-POEM/PTMSP/PVDF,UiO-66-NH2,28.6,"298 K, 1 bar",(488),(15.3),-,-,31.9,-,-,Fl88 [551],Thin film composite (TFC) membranes
+PGMA-co-POEM/PTMSP/PVDF,UiO-66-NH2,33.3,"298 K, 1 bar",(366),(15.1),-,-,24.2,-,-,Fl88 [551],Thin film composite (TFC) membranes
+PVAm,Modified UiO-66-NH2,0,"298 K, 1 bar, binary CO2/N2 (15:85)",(536),-,-,-,56,-,-,[434] Fh88,Thin film composite (TFC) membranes
+PVAm,Modified UiO-66-NH2,28.5,"298 K, 1 bar, binary CO2/N2 (15:85)",(1295),(14),-,-,91,-,-,[434] Fh88,Thin film composite (TFC) membranes
+PVAm,Modified UiO-66-NH2,37.5,"298 K, 1 bar, binary CO2/N2 (15:85)",(1447),(27),-,-,51,-,-,[434] Fh88,Thin film composite (TFC) membranes
+PVAm,Modified UiO-66-NH2,28.5,"298 K, 20 bar, binary CO2/H2 (40:60)",(185),-,-,-,-,-,12,[434] Fh88,Thin film composite (TFC) membranes
+Cellulose nanofibrils/ mixed cellulose ester,UiO-66,0,"298 K, 2 bar",7,1.2,-,-,6,-,-,[544] Fc85,Thin film composite (TFC) membranes
+Cellulose nanofibrils/ mixed cellulose ester,UiO-66,NA,"298 K, 2 bar",50,1.8,-,-,28,-,-,[544] Fc85,Thin film composite (TFC) membranes
+Cellulose nanofibrils/ mixed cellulose ester,UiO-66-NH2,NA,"298 K, 2 bar",139,3.1,-,-,46,-,-,[544] Fc85,Thin film composite (TFC) membranes
+6FDA–ODA,UiO-67,0,"308 K, 10.34 bar",14.4,-,0.33,-,-,44.1,-,1b [180],Other common MMMs containing different MOFs
+6FDA–ODA,UiO-67,25,"308 K, 10.34 bar",20.8,-,1.40,-,-,15,-,1b [180],Other common MMMs containing different MOFs
+6FDA–ODA,MOF-199,25,"308 K, 10.34 bar",21.8,-,0.43,-,-,51.2,-,1b [180],Other common MMMs containing different MOFs
+6FDA–ODA,NH2-MOF-199,25,"308 K, 10.34 bar",26.6,-,0.45,-,-,59.6,-,1b [180],Other common MMMs containing different MOFs
+PU,MIL-101(Cr),0,"298 K, 4 bar",38.4,0.98,-,-,39.2,-,-,Fr84 [448],Other common MMMs containing different MOFs
+PU,MIL-101(Cr),28,"298 K, 4 bar",83.1,1.96,-,-,42.4,-,-,Fr84 [448],Other common MMMs containing different MOFs
+PIM-1,NUS-8,0,"298 K, 1 bar, binary CO2/N2 mixture",3895,231,-,-,15.6,-,-,[445] Fs84,Other common MMMs containing different MOFs
+PIM-1,NUS-8,2,"298 K, 1 bar, binary CO2/N2 mixture",6725,252,-,-,26.8,-,-,[445] Fs84,Other common MMMs containing different MOFs
+PIM-1,NUS-8,5,"298 K, 1 bar, binary CO2/N2 mixture",8288,389,-,-,21.3,-,-,[445] Fs84,Other common MMMs containing different MOFs
+PIM-1,NUS-8,0,"298 K, 1 bar, binary CO2/CH4 mixture",4020,-,288,-,-,13.9,-,[445] Fs84,Other common MMMs containing different MOFs
+PIM-1,NUS-8,2,"298 K, 1 bar, binary CO2/CH4 mixture",6462,-,217,-,-,30.1,-,[445] Fs84,Other common MMMs containing different MOFs
+PIM-1,NUS-8,5,"298 K, 1 bar, binary CO2/CH4 mixture",8670,-,463,,,18.7,-,[445] Fs84,Other common MMMs containing different MOFs
+PI,ZIF-8,0,"308 K, 1 bar",285,12,8,390,24,35,0.71,Fm85 [469],Other common MMMs containing different MOFs
+PI,ZIF-8,7,"308 K, 1 bar",560,28,21,790,20,27,0.71,Fm85 [469],Other common MMMs containing different MOFs
+PI,PDA-modified ZIF-8,7,"308 K, 1 bar",380,20,15,600,19,25,0.62,Fm85 [469],Other common MMMs containing different MOFs
+TB,NH2-MIL-53(Al),0,"308 K, 4 bar",101.6,5.4,5.5,240.0,18.8,18.4,0.42,Fg87 [463],Other common MMMs containing different MOFs
+TB,NH2-MIL-53(Al),10,"308 K, 4 bar",187.6,8.9,9.3,402.7,21.0,20.2,0.47,Fg87 [463],Other common MMMs containing different MOFs
+TB,NH2-MIL-53(Al),30,"308 K, 4 bar",85.6,4.5,4.5,199.5,18.9,19.2,0.43,Fg87 [463],Other common MMMs containing different MOFs
+Matrimid 5218,UiO-67-33,10,"308 K, 5 bar, mixed gas",27,-,-,-,-,75,-,Fo84 [553],Other common MMMs containing different MOFs
+PI,ZIF-8,15,"298 K, 5 bar",9.3,0.22,0.22,27.1,42.27,42.27,0.34,Fy84 [554],Other common MMMs containing different MOFs
+SPEEK,MIL-101(Cr),40,"293 K, 1.5 bar",29.2,0.75,0.91,-,38.9,32.2,-,Fp87 [496],Other common MMMs containing different MOFs
+SPEEK,PEI@MIL-101(Cr),40,"293 K, 1.5 bar",36.2,0.76,0.91,-,47.8,39.8,-,Fp87 [496],Other common MMMs containing different MOFs
+xLPEO,CAU-1,0,"308 K, 3 bar, binary CO2/CH4 (50:50) mixture",206,-,11.1,-,-,18.5,-,Fr87 [500],Other common MMMs containing different MOFs
+xLPEO,CAU-1,10,"308 K, 3 bar, binary CO2/CH4 (50:50) mixture",261,-,11.9,-,-,21.9,-,Fr87 [500],Other common MMMs containing different MOFs
+xLPEO,PEI-CAU-1,10,"308 K, 3 bar, binary CO2/CH4 (50:50) mixture",345,-,14.6,-,-,23.7,-,Fr87 [500],Other common MMMs containing different MOFs
+xLPEO,PEI-CAU-1,30,"308 K, 3 bar, binary CO2/CH4 (50:50) mixture",546,-,19.6,-,-,27.8,-,Fr87 [500],Other common MMMs containing different MOFs
+PVAm,PEI-g-ZIF-8,16.7,"298 K, 3 bar, binary CO2/N2 (15:85) mixture",656.7,-,-,-,79.9,-,-,Fq87 [499],Other common MMMs containing different MOFs
+6FDA-durene,HKUST-1@IL,10,"298 K, 2 atm",145,8.1,7.4,-,17.9,19.6,-,Ft87 [507],Other common MMMs containing different MOFs
+Pebax® 1657,[bmim][Tf2N]@ZIF-8,15,"298 K, 1 bar",104.9,1.25,3.01,-,83.9,34.8,-,Fa88 [512],Other common MMMs containing different MOFs
+PSf,MIL-68 (in-situ),0,"308 K, 1 bar",5.4,-,0.18,-,-,31.1,-,Ff88 [521],Other common MMMs containing different MOFs
+PSf,MIL-68 (in-situ),8,"308 K, 1 bar",4.7,-,0.10,-,-,36.5,-,Ff88 [521],Other common MMMs containing different MOFs
+PIM-1,ZIF-71,0,"308 K, 3.5 atm",3294.7,163.6,322.2,-,20.1,10.2,-,Fz89 [558],Other common MMMs containing different MOFs
+PIM-1,ZIF-71,20,"308 K, 3.5 atm",5942.0,296.9,498.4,-,20.0,11.9,-,Fz89 [558],Other common MMMs containing different MOFs

@@ -1,0 +1,63 @@
+material,sbet_m2_g,co2_uptake_mmol_g,qst_kj_mol,reference
+Mg-MOF-74,1495,8.0,47,Fo73 [29]
+Zn-MOF-74,816,5.1,-,
+Co-MOF-74,1080,7.0,37,
+Ni-MOF-74,1070,5.8,41,
+SNU-71,1770,1.0,17.8,Fd62 [30]
+MAF-X250x,-,7.1,35.0,Fm74 [31]
+MAF-X270x,-,6.7,31.0,
+PCN-61,3000,2.8,21.0,Fp73 [32]
+PCN-66,4000,1.8,26.0,
+PCN-68,5109,1.4,21.2,
+PCN-88,3308,4.2,27.0,Fs73 [33]
+CPM-200-Fe/Mg,1459,5.68,34.3,Fq73 [34]
+CPM-200-V/Mg,1011,3.59,79.6,
+CPM-200-In/Mg,1347,5.07,29.3,
+CPM-200-In/Co,1040,3.46,25.0,
+CPM-200-Ga/Mg,1056,3.53,19.7,
+Cd-L,421,3.5,-,Fr73 [35]
+Cu-BTTri-en,345,3.8,90.0,Ft54 [36]
+Cu-BTTri-mmen,870,4.2,96.0,Fu54 [37]
+UiO-btdc,2207,3.06,18.5,Ft73 [38]
+UiO-67,2425,1.72,17.2,
+UiO-67,2505,1.0,15.9,Fu73 [39]
+BUT-10,1848,2.3,21.8,
+BUT-11,1310,2.4,25.9,
+NOTT-122,3286,4.6,24.5,Fw73 [40]
+NOTT-125,2471,4.1,25.4,
+JUC-132,253,1.7,42.0,Fx73 [41]
+MOF-55-eea,-,4.5,26.0,Fy73 [42]
+NENU-520,387,2.7,33.0,Fz73 [43]
+UTSA-49,711,3.1,27.0,Fa74 [44]
+Cu2(DBIP),1773,5.5,28.1,Fb74 [45]
+NH2-MIL-101(Cr),1675,1.9,25,Fc74 [46]
+SNU-100-Ni,982,3.8,34.5,Fq54 [47]
+SNU-100-Co,1000,3.8,36.0,
+MOF-889,144,2.4,28.0,Fd74 [48]
+MOF-890,200,2.6,34.0,
+MOF-891,295,2.6,31.0,
+LIFM-10,1550,2.9,29.0,Fe74 [49]
+LIFM-11,1176,3.6,53.0,
+rht-MOF-9,2420,5.8,32.0,Fs74 [50]
+Cu-TPBTM,3160,3.1,26.3,Fr74 [51]
+CPM33a,966,3.3,22.5,Fn74 [52]
+Zn(BPZ),930,3.7,22.0,Fo74 [53]
+NUS-5,410,2.9,21.5,Ff74 [54]
+MAF-66,1014,4.4,26.0,Fg74 [55]
+USO-1-Al-A,1300,3.0,50.0,Fi74 [56]
+TMU-4,518,1.8,25.0,Fj74 [57]
+TMU-5,503,1.8,45.0,
+CPF-13,642,3.6,28.2,Fk74 [58]
+Bi-MOF-11,1040,4.1,45.0,Fl74 [59]
+Cu3(BTC)2,1627,4.4,33.0,Ft56 [27]
+NH2-Cu3(BTC)2,1242,3.9,43,
+UiO-66,838,2.3,-,Fa73 [28]
+UiO-66,1127,2.2,-,Fm62 [60]
+UiO-66,1401,2.3,25.6,Ft56 [27]
+UiO-66,1730,2.2,23.3,Fg54 [23]
+UiO-66,1057,1.9,26.0,Fo60 [61]
+UiO-66-NH2,1105,3.0,27.0,Fw56 [62]
+UiO-66-NH2,987,2.7,27.0,Fg58 [63]
+UiO-66-NH2,1254,3.3,34.7,Ft56 [27]
+,,,,
+"en = ethylenediamine. mmen = N,N-dimethylethylenediamine. btdc = 2,2′-bithiophene-5,5′-dicarboxylic acid. H4DBIP = 5-(3,5-dicarboxybenzyloxy)isophthalic acid. TPBTM = N,N′,N″-tris(isophthalyl)-1,3,5-benzenetricarboxamide. H2BPZ = 4,4′-bipyrazole. BTC = 1,3,5-benzenetricarboxylic acid.","en = ethylenediamine. mmen = N,N-dimethylethylenediamine. btdc = 2,2′-bithiophene-5,5′-dicarboxylic acid. H4DBIP = 5-(3,5-dicarboxybenzyloxy)isophthalic acid. TPBTM = N,N′,N″-tris(isophthalyl)-1,3,5-benzenetricarboxamide. H2BPZ = 4,4′-bipyrazole. BTC = 1,3,5-benzenetricarboxylic acid.","en = ethylenediamine. mmen = N,N-dimethylethylenediamine. btdc = 2,2′-bithiophene-5,5′-dicarboxylic acid. H4DBIP = 5-(3,5-dicarboxybenzyloxy)isophthalic acid. TPBTM = N,N′,N″-tris(isophthalyl)-1,3,5-benzenetricarboxamide. H2BPZ = 4,4′-bipyrazole. BTC = 1,3,5-benzenetricarboxylic acid.","en = ethylenediamine. mmen = N,N-dimethylethylenediamine. btdc = 2,2′-bithiophene-5,5′-dicarboxylic acid. H4DBIP = 5-(3,5-dicarboxybenzyloxy)isophthalic acid. TPBTM = N,N′,N″-tris(isophthalyl)-1,3,5-benzenetricarboxamide. H2BPZ = 4,4′-bipyrazole. BTC = 1,3,5-benzenetricarboxylic acid.","en = ethylenediamine. mmen = N,N-dimethylethylenediamine. btdc = 2,2′-bithiophene-5,5′-dicarboxylic acid. H4DBIP = 5-(3,5-dicarboxybenzyloxy)isophthalic acid. TPBTM = N,N′,N″-tris(isophthalyl)-1,3,5-benzenetricarboxamide. H2BPZ = 4,4′-bipyrazole. BTC = 1,3,5-benzenetricarboxylic acid."
