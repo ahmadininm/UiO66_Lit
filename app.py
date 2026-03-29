@@ -1,8 +1,5 @@
-
 from __future__ import annotations
 
-import io
-import math
 import os
 import re
 from pathlib import Path
@@ -11,7 +8,6 @@ from typing import Dict, List, Optional, Tuple
 import numpy as np
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
 import streamlit as st
 
 # ---------------------------------------------------------------------
@@ -50,25 +46,26 @@ DATASETS = {
 }
 
 PAPER_SCOPE = [
-    "CO2 capture performance criteria and benchmarks",
-    "UiO-66 adsorption engineering, including functionalisation, defects, pore control, porous liquids, and composites",
+    "Performance criteria for CO2-capture MOFs",
+    "Engineering UiO-66 for CO2 capture, including linker functionalisation, post-synthetic routes, hydrophobic design, pore tuning, defect chemistry, porous liquids, and composites",
     "Pure UiO-66 membranes and UiO-66-filled mixed-matrix membranes",
     "Catalytic and photocatalytic CO2 conversion",
-    "Life-cycle assessment, scale-up, shaping, and deployment outlook",
+    "Environmental impact, life-cycle assessment, shaping, regeneration, and future outlook",
 ]
 
 NARRATIVE_SUMMARY = """
-This app is built around the cleaned review datasets rather than placeholder examples. It focuses on the paper's main threads:
-adsorption benchmarks, UiO-66 design strategies, membranes, catalytic and photocatalytic conversion, and sustainability.
-Use the tabs to move between benchmark-level comparisons and UiO-66-specific records.
+This explorer follows the review structure rather than the old placeholder app. It keeps the focus on benchmark capture metrics,
+UiO-66 adsorption engineering, membrane and MMM performance, catalytic and photocatalytic CO2 conversion, and the paper's
+life-cycle and deployment discussion.
 """.strip()
 
 SUSTAINABILITY_TAKEAWAYS = [
-    "Aqueous UiO-66-NH2 synthesis was reported to cut environmental burden by up to 91% and cost by up to 84% relative to a conventional solvothermal route.",
-    "A solvent-free UiO-66-NH2 route in membrane-focused LCA-TEA work cut environmental burden by 89% and cost by 52%.",
-    "Waste-PET-derived linker routes are promising, but the paper stresses that circular feedstocks still need comparative LCA to prove the benefit.",
-    "Process-relevant shaped forms matter. Powder metrics alone are not enough for realistic sustainability claims.",
+    "UiO-66 sustainability depends on synthesis route, shaping, regeneration duty, and service life rather than on powder uptake alone.",
+    "The paper highlights large improvements for greener production routes, especially aqueous or solvent-free UiO-66-NH2 syntheses.",
+    "Waste-PET linker routes are promising, but the review stresses that they still need comparative LCA rather than automatic green claims.",
+    "For practical deployment, structured forms, realistic working capacity, and low sorbent loss matter more than a single headline adsorption number.",
 ]
+
 
 # ---------------------------------------------------------------------
 # Generic helpers
@@ -91,10 +88,10 @@ def load_all() -> Dict[str, pd.DataFrame]:
     return {key: load_csv(filename) for key, filename in DATASETS.items()}
 
 
-def normalise_text(text: object) -> str:
-    if pd.isna(text):
+def normalise_text(value: object) -> str:
+    if pd.isna(value):
         return ""
-    return str(text).replace("\n", " ").strip()
+    return str(value).replace("\n", " ").strip()
 
 
 def first_number(value: object) -> float:
@@ -140,7 +137,7 @@ def extract_pressure_bar(text: object) -> float:
     atm_match = re.search(r"(\d+(?:\.\d+)?)\s*atm", txt, re.IGNORECASE)
     if atm_match:
         return float(atm_match.group(1)) * 1.01325
-    bar_match = re.search(r"(\d+(?:\.\d+)?)(?:\s*-\s*(\d+(?:\.\d+)?))?\s*bar", txt, re.IGNORECASE)
+    bar_match = re.search(r"(\d+(?:\.\d+)?)(?:\s*[-–]\s*(\d+(?:\.\d+)?))?\s*bar", txt, re.IGNORECASE)
     if bar_match:
         if bar_match.group(2):
             return (float(bar_match.group(1)) + float(bar_match.group(2))) / 2.0
@@ -173,6 +170,36 @@ def metric_row(items: List[Tuple[str, str, Optional[str]]]) -> None:
     for col, item in zip(cols, items):
         label, value, help_text = item
         col.metric(label, value, help=help_text)
+
+
+def df_for_scatter(
+    df: pd.DataFrame,
+    x: str,
+    y: str,
+    size: Optional[str] = None,
+    size_default: float = 10.0,
+) -> pd.DataFrame:
+    out = df.copy()
+    out[x] = pd.to_numeric(out[x], errors="coerce")
+    out[y] = pd.to_numeric(out[y], errors="coerce")
+    out = out.dropna(subset=[x, y]).copy()
+
+    if size is not None:
+        out[size] = pd.to_numeric(out[size], errors="coerce")
+        median_size = out[size].median()
+        if pd.isna(median_size):
+            median_size = size_default
+        out[size] = out[size].fillna(median_size).clip(lower=0.0)
+
+    return out
+
+
+def safe_plotly_chart(fig) -> None:
+    st.plotly_chart(fig, width="stretch")
+
+
+def safe_dataframe(df: pd.DataFrame) -> None:
+    st.dataframe(df, width="stretch")
 
 
 def ai_client() -> Optional["OpenAI"]:
@@ -217,6 +244,7 @@ def prep_benchmark_gravimetric(df: pd.DataFrame) -> pd.DataFrame:
     out["sbet_num"] = out["sbet_m2_g"].map(first_number)
     out["uptake_num"] = out["co2_uptake_mmol_g"].map(first_number)
     out["qst_num"] = out["qst_kj_mol"].map(mid_number)
+    out["qst_size"] = out["qst_num"]
     out["family"] = out["material"].map(family_from_material)
     return out
 
@@ -243,6 +271,7 @@ def prep_mixed_gas(df: pd.DataFrame) -> pd.DataFrame:
         "qst_kj_mol",
     ]:
         out[col + "_num"] = out[col].map(mid_number)
+    out["qst_size"] = out["qst_kj_mol_num"]
     out["family"] = out["adsorbent"].map(family_from_material)
     return out
 
@@ -277,6 +306,7 @@ def prep_mmm(df: pd.DataFrame) -> pd.DataFrame:
         "h2_permeability_or_gpu", "selectivity_co2_n2", "selectivity_co2_ch4", "selectivity_co2_h2",
     ]:
         out[col + "_num"] = out[col].map(mid_number)
+    out["loading_size"] = out["loading_pct_num"]
     out["temperature_k"] = out["conditions"].map(extract_temperature_k)
     out["pressure_bar"] = out["conditions"].map(extract_pressure_bar)
     return out
@@ -295,6 +325,7 @@ def prep_catalysis(df: pd.DataFrame) -> pd.DataFrame:
     out["temperature_k"] = out["reaction_conditions"].map(extract_temperature_k)
     out["pressure_bar"] = out["reaction_conditions"].map(extract_pressure_bar)
     out["product_group"] = out["product"].fillna("").replace("", "Unspecified")
+    out["co_catalyst_clean"] = out["co_catalyst"].fillna("").replace("", "Unspecified")
     return out
 
 
@@ -303,6 +334,7 @@ def prep_photocatalysis(df: pd.DataFrame) -> pd.DataFrame:
     out["efficiency_num"] = out["photocatalytic_efficiency_umol_g_h"].map(mid_number)
     out["product_group"] = out["product"].fillna("").replace("", "Unspecified")
     out["sacrificial_agent_clean"] = out["sacrificial_agent"].fillna("").replace("", "Unspecified")
+    out["irradiation_clean"] = out["irradiation"].fillna("").replace("", "Unspecified")
     return out
 
 
@@ -311,8 +343,9 @@ def prep_photocatalysis(df: pd.DataFrame) -> pd.DataFrame:
 # ---------------------------------------------------------------------
 def render_home(dfs: Dict[str, pd.DataFrame]) -> None:
     st.title("UiO-66 Review Explorer")
-    st.caption("Interactive companion app for the uploaded review paper on UiO-66-derived MOFs for CO2 capture, separation, and conversion.")
-
+    st.caption(
+        "Interactive companion app for the review on UiO-66-derived MOFs for CO2 capture, separation, and conversion."
+    )
     st.write(NARRATIVE_SUMMARY)
 
     capture_df = prep_capture_design(dfs["uio66_capture_design_space"])
@@ -322,11 +355,11 @@ def render_home(dfs: Dict[str, pd.DataFrame]) -> None:
     photo_df = prep_photocatalysis(dfs["photocatalytic_conversion"])
 
     metric_row([
-        ("Industrial examples", f"{len(dfs['industrial_deployments']):,}", "Table of industrial MOF-based capture examples in the paper"),
-        ("UiO-66 capture records", f"{len(capture_df):,}", "Rows extracted from the paper's UiO-66 adsorption design-space table"),
-        ("Membrane records", f"{len(mmm_df) + len(pure_mem_df):,}", "Pure membrane plus MMM records"),
+        ("Industrial examples", f"{len(dfs['industrial_deployments']):,}", "Industrial MOF-based capture examples cited in the review"),
+        ("UiO-66 capture records", f"{len(capture_df):,}", "UiO-66 adsorption rows extracted from the review"),
+        ("Membrane records", f"{len(mmm_df) + len(pure_mem_df):,}", "Pure membrane and MMM rows"),
         ("Catalytic records", f"{len(cat_df):,}", "Catalytic CO2 conversion rows"),
-        ("Photocatalytic records", f"{len(photo_df):,}", "Photocatalytic conversion rows"),
+        ("Photocatalytic records", f"{len(photo_df):,}", "Photocatalytic CO2 conversion rows"),
     ])
 
     col1, col2 = st.columns([1.1, 1.4])
@@ -342,30 +375,31 @@ def render_home(dfs: Dict[str, pd.DataFrame]) -> None:
 
     with col2:
         industrial = dfs["industrial_deployments"].copy()
-        industrial["capacity_max_num"] = industrial["capacity_tco2_day"].map(mid_number)
+        industrial["capacity_num"] = industrial["capacity_tco2_day"].map(mid_number).fillna(0.0)
         fig = px.bar(
             industrial,
             x="company",
-            y="capacity_max_num",
+            y="capacity_num",
             color="deployment_stage",
             text="capacity_tco2_day",
-            title="Industrial deployment examples cited in the paper",
+            title="Industrial deployment examples cited in the review",
         )
         fig.update_layout(xaxis_title="", yaxis_title="Approximate capacity scale (t CO2/day)")
-        st.plotly_chart(fig, use_container_width=True)
+        safe_plotly_chart(fig)
 
     st.divider()
 
-    redox = prep_redox(dfs["co2_reduction_redox_potentials"])
-    fig2 = px.bar(
-        redox.sort_values("potential_num", ascending=False),
-        x="reaction",
-        y="potential_num",
-        title="Reference electrochemical reduction potentials listed in the review",
-    )
-    fig2.update_layout(xaxis_title="", yaxis_title="E° vs SHE (V)")
-    fig2.update_xaxes(tickangle=-25)
-    st.plotly_chart(fig2, use_container_width=True)
+    redox = prep_redox(dfs["co2_reduction_redox_potentials"]).dropna(subset=["potential_num"]).copy()
+    if not redox.empty:
+        fig2 = px.bar(
+            redox.sort_values("potential_num", ascending=False),
+            x="reaction",
+            y="potential_num",
+            title="Reference electrochemical reduction potentials listed in the review",
+        )
+        fig2.update_layout(xaxis_title="", yaxis_title="E° vs SHE (V)")
+        fig2.update_xaxes(tickangle=-25)
+        safe_plotly_chart(fig2)
 
 
 def render_benchmarks(dfs: Dict[str, pd.DataFrame]) -> None:
@@ -380,24 +414,26 @@ def render_benchmarks(dfs: Dict[str, pd.DataFrame]) -> None:
     if view == "Gravimetric uptake at 298 K and 1 bar":
         df = prep_benchmark_gravimetric(dfs["benchmark_gravimetric_uptake"])
         families = sorted(df["family"].dropna().unique().tolist())
-        selected = st.multiselect("Family", families, default=["UiO-66", "MOF-74", "Other"] if "UiO-66" in families else families[:5])
+        default_families = [x for x in ["UiO-66", "MOF-74", "Other"] if x in families]
+        selected = st.multiselect("Family", families, default=default_families or families[:5])
         if selected:
             df = df[df["family"].isin(selected)]
 
+        plot_df = df_for_scatter(df, x="sbet_num", y="uptake_num", size="qst_size", size_default=25.0)
         fig = px.scatter(
-            df,
+            plot_df,
             x="sbet_num",
             y="uptake_num",
             color="family",
-            size="qst_num",
+            size="qst_size",
             hover_data=["material", "co2_uptake_mmol_g", "qst_kj_mol", "reference"],
             title="Surface area versus CO2 uptake",
         )
         fig.update_layout(xaxis_title="SBET (m²/g)", yaxis_title="CO2 uptake (mmol/g)")
-        st.plotly_chart(fig, use_container_width=True)
+        safe_plotly_chart(fig)
 
-        top = df.sort_values("uptake_num", ascending=False).head(20)
-        st.dataframe(top[["material", "family", "sbet_m2_g", "co2_uptake_mmol_g", "qst_kj_mol", "reference"]], use_container_width=True)
+        top = df.dropna(subset=["uptake_num"]).sort_values("uptake_num", ascending=False).head(20)
+        safe_dataframe(top[["material", "family", "sbet_m2_g", "co2_uptake_mmol_g", "qst_kj_mol", "reference"]])
         make_download_button(df, "Download filtered benchmark table", "benchmark_gravimetric_filtered.csv")
 
     elif view == "Volumetric uptake at 298 K":
@@ -408,10 +444,11 @@ def render_benchmarks(dfs: Dict[str, pd.DataFrame]) -> None:
             "0.15 bar": ("co2_uptake_mmol_cm3_0p15bar_num", "co2_uptake_mg_g_0p15bar_num", "co2_uptake_mmol_cm3_0p15bar"),
             "1 bar": ("co2_uptake_mmol_cm3_1bar_num", "co2_uptake_mg_g_1bar_num", "co2_uptake_mmol_cm3_1bar"),
         }
-        vol_col, grav_col, raw_col = mapping[pressure_choice]
+        vol_col, _, raw_col = mapping[pressure_choice]
 
+        plot_df = df_for_scatter(df, x="crystal_density_g_cm3_num", y=vol_col, size="sbet_m2_g_num", size_default=500.0)
         fig = px.scatter(
-            df,
+            plot_df,
             x="crystal_density_g_cm3_num",
             y=vol_col,
             color="family",
@@ -419,11 +456,11 @@ def render_benchmarks(dfs: Dict[str, pd.DataFrame]) -> None:
             hover_data=["adsorbent", raw_col, "co2_uptake_mg_g_1bar", "reference"],
             title=f"Density versus volumetric CO2 uptake at {pressure_choice}",
         )
-        fig.update_layout(xaxis_title="Crystal density (g/cm³)", yaxis_title=f"Volumetric CO2 uptake ({pressure_choice})")
-        st.plotly_chart(fig, use_container_width=True)
+        fig.update_layout(xaxis_title="Crystal density (g/cm³)", yaxis_title=f"Volumetric CO2 uptake at {pressure_choice}")
+        safe_plotly_chart(fig)
 
-        top = df.sort_values(vol_col, ascending=False).head(15)
-        st.dataframe(top[["adsorbent", "crystal_density_g_cm3", raw_col, "co2_uptake_mg_g_1bar", "reference"]], use_container_width=True)
+        top = df.dropna(subset=[vol_col]).sort_values(vol_col, ascending=False).head(15)
+        safe_dataframe(top[["adsorbent", "crystal_density_g_cm3", raw_col, "co2_uptake_mg_g_1bar", "reference"]])
         make_download_button(df, "Download volumetric benchmark table", "benchmark_volumetric_filtered.csv")
 
     else:
@@ -440,22 +477,22 @@ def render_benchmarks(dfs: Dict[str, pd.DataFrame]) -> None:
             raw_cols = ["pre_combustion_co2_uptake_mmol_g", "pre_combustion_co2_h2_selectivity"]
             title = "Pre-combustion mixed-gas benchmarks"
 
-        filtered = df.dropna(subset=[xcol, ycol]).copy()
+        filtered = df_for_scatter(df, x=xcol, y=ycol, size="qst_size", size_default=30.0)
         fig = px.scatter(
             filtered,
             x=xcol,
             y=ycol,
             color="family",
-            size="qst_kj_mol_num",
+            size="qst_size",
             hover_data=["adsorbent", raw_cols[0], raw_cols[1], "qst_kj_mol", "reference"],
             title=title,
             log_y=True,
         )
         fig.update_layout(xaxis_title="CO2 uptake (mmol/g)", yaxis_title="Selectivity")
-        st.plotly_chart(fig, use_container_width=True)
+        safe_plotly_chart(fig)
 
         top = filtered.sort_values(ycol, ascending=False).head(20)
-        st.dataframe(top[["adsorbent", raw_cols[0], raw_cols[1], "qst_kj_mol", "reference"]], use_container_width=True)
+        safe_dataframe(top[["adsorbent", raw_cols[0], raw_cols[1], "qst_kj_mol", "reference"]])
         make_download_button(filtered, "Download mixed-gas table", "mixed_gas_filtered.csv")
 
 
@@ -464,7 +501,11 @@ def render_design_space(dfs: Dict[str, pd.DataFrame]) -> None:
 
     df = prep_capture_design(dfs["uio66_capture_design_space"])
     categories = sorted(df["category"].dropna().unique().tolist())
-    selected_categories = st.multiselect("Strategy category", categories, default=categories[:4] if len(categories) > 4 else categories)
+    selected_categories = st.multiselect(
+        "Strategy category",
+        categories,
+        default=categories[:4] if len(categories) > 4 else categories,
+    )
 
     metric_mode = st.radio(
         "Explore by",
@@ -477,7 +518,10 @@ def render_design_space(dfs: Dict[str, pd.DataFrame]) -> None:
         filtered = filtered[filtered["category"].isin(selected_categories)]
 
     temp_range = st.slider("Temperature range (K)", 250, 500, (280, 320))
-    filtered = filtered[(filtered["temperature_k"].isna()) | ((filtered["temperature_k"] >= temp_range[0]) & (filtered["temperature_k"] <= temp_range[1]))]
+    filtered = filtered[
+        filtered["temperature_k"].isna()
+        | ((filtered["temperature_k"] >= temp_range[0]) & (filtered["temperature_k"] <= temp_range[1]))
+    ]
 
     if metric_mode == "Pure CO2 uptake":
         xcol, ycol = "sbet_m2_g_num", "co2_uptake_mmol_g_num"
@@ -496,7 +540,7 @@ def render_design_space(dfs: Dict[str, pd.DataFrame]) -> None:
         ylab = "CO2/H2 selectivity"
         hover_cols = ["material", "conditions", "co2_uptake_mmol_g", "selectivity_co2_h2", "reference"]
 
-    filtered = filtered.dropna(subset=[xcol, ycol]).copy()
+    filtered = df_for_scatter(filtered, x=xcol, y=ycol)
     fig = px.scatter(
         filtered,
         x=xcol,
@@ -511,8 +555,7 @@ def render_design_space(dfs: Dict[str, pd.DataFrame]) -> None:
         fig.update_layout(xaxis_title="CO2 uptake (mmol/g)", yaxis_title=ylab)
     else:
         fig.update_layout(xaxis_title="SBET (m²/g)", yaxis_title=ylab)
-
-    st.plotly_chart(fig, use_container_width=True)
+    safe_plotly_chart(fig)
 
     category_summary = (
         filtered.groupby("category", dropna=False)
@@ -529,7 +572,7 @@ def render_design_space(dfs: Dict[str, pd.DataFrame]) -> None:
     col1, col2 = st.columns([1.2, 1.0])
     with col1:
         st.markdown("#### Category summary")
-        st.dataframe(category_summary, use_container_width=True)
+        safe_dataframe(category_summary)
     with col2:
         fig2 = px.bar(
             category_summary,
@@ -539,9 +582,12 @@ def render_design_space(dfs: Dict[str, pd.DataFrame]) -> None:
             text="records",
         )
         fig2.update_xaxes(tickangle=-30)
-        st.plotly_chart(fig2, use_container_width=True)
+        safe_plotly_chart(fig2)
 
-    ranking_mode = st.selectbox("Ranking table", ["Highest CO2 uptake", "Highest CO2/N2 selectivity", "Highest CO2/CH4 selectivity", "Highest CO2/H2 selectivity"])
+    ranking_mode = st.selectbox(
+        "Ranking table",
+        ["Highest CO2 uptake", "Highest CO2/N2 selectivity", "Highest CO2/CH4 selectivity", "Highest CO2/H2 selectivity"],
+    )
     ranking_map = {
         "Highest CO2 uptake": "co2_uptake_mmol_g_num",
         "Highest CO2/N2 selectivity": "selectivity_co2_n2_num",
@@ -551,12 +597,11 @@ def render_design_space(dfs: Dict[str, pd.DataFrame]) -> None:
     rank_col = ranking_map[ranking_mode]
     top = filtered.dropna(subset=[rank_col]).sort_values(rank_col, ascending=False).head(25)
     st.markdown("#### Top rows in the current view")
-    st.dataframe(
+    safe_dataframe(
         top[[
             "material", "category", "conditions", "co2_uptake_mmol_g", "selectivity_co2_n2",
             "selectivity_co2_ch4", "selectivity_co2_h2", "reference"
-        ]],
-        use_container_width=True,
+        ]]
     )
     make_download_button(filtered, "Download filtered UiO-66 design-space table", "uio66_design_space_filtered.csv")
 
@@ -571,7 +616,8 @@ def render_membranes(dfs: Dict[str, pd.DataFrame]) -> None:
         pairs = sorted(df["binary_gas_pair"].dropna().unique().tolist())
         pair = st.selectbox("Binary gas pair", pairs, index=pairs.index("CO2/N2") if "CO2/N2" in pairs else 0)
 
-        filtered = df[df["binary_gas_pair"] == pair].dropna(subset=["gas_i_num", "separation_num"]).copy()
+        filtered = df[df["binary_gas_pair"] == pair].copy()
+        filtered = df_for_scatter(filtered, x="gas_i_num", y="separation_num")
 
         fig = px.scatter(
             filtered,
@@ -583,13 +629,13 @@ def render_membranes(dfs: Dict[str, pd.DataFrame]) -> None:
         )
         fig.update_layout(xaxis_title="Gas i permeance", yaxis_title="Separation factor")
         fig.update_yaxes(type="log")
-        st.plotly_chart(fig, use_container_width=True)
+        safe_plotly_chart(fig)
 
-        st.dataframe(filtered[[
+        safe_dataframe(filtered[[
             "membrane", "conditions", "binary_gas_pair",
             "gas_i_permeance_1e8_mol_m2_s_pa", "gas_j_permeance_1e8_mol_m2_s_pa",
             "separation_factor", "reference"
-        ]], use_container_width=True)
+        ]])
         make_download_button(filtered, "Download filtered pure membrane table", "pure_membranes_filtered.csv")
 
     with subtab2:
@@ -606,39 +652,44 @@ def render_membranes(dfs: Dict[str, pd.DataFrame]) -> None:
             sel_raw = "selectivity_co2_h2"
 
         categories = sorted(df["category"].dropna().unique().tolist())
-        selected_categories = st.multiselect("MMM categories", categories, default=categories[:4] if len(categories) > 4 else categories)
+        selected_categories = st.multiselect(
+            "MMM categories",
+            categories,
+            default=categories[:4] if len(categories) > 4 else categories,
+        )
+
         filtered = df.copy()
         if selected_categories:
             filtered = filtered[filtered["category"].isin(selected_categories)]
 
         loading_max = st.slider("Maximum filler loading (%)", 0.0, 100.0, 40.0, 1.0)
         filtered = filtered[(filtered["loading_pct_num"].isna()) | (filtered["loading_pct_num"] <= loading_max)]
-        filtered = filtered.dropna(subset=["co2_permeability_or_gpu_num", sel_col]).copy()
+        filtered = df_for_scatter(filtered, x="co2_permeability_or_gpu_num", y=sel_col, size="loading_size", size_default=10.0)
 
         fig = px.scatter(
             filtered,
             x="co2_permeability_or_gpu_num",
             y=sel_col,
             color="category",
-            size="loading_pct_num",
+            size="loading_size",
             hover_data=["polymer", "filler", "loading_pct", "conditions", sel_raw, "reference"],
             title=f"MMM trade-off map for {mode}",
         )
         fig.update_xaxes(type="log", title="CO2 permeability / permeance")
         fig.update_yaxes(type="log", title=f"{mode} selectivity")
-        st.plotly_chart(fig, use_container_width=True)
+        safe_plotly_chart(fig)
 
         top = filtered.sort_values(sel_col, ascending=False).head(30)
-        st.dataframe(top[[
+        safe_dataframe(top[[
             "polymer", "filler", "category", "loading_pct", "conditions",
             "co2_permeability_or_gpu", sel_raw, "reference"
-        ]], use_container_width=True)
+        ]])
 
         polymer_counts = filtered["polymer"].value_counts().head(15).reset_index()
         polymer_counts.columns = ["polymer", "records"]
         fig2 = px.bar(polymer_counts, x="polymer", y="records", title="Most common polymer matrices in the current MMM view")
         fig2.update_xaxes(tickangle=-30)
-        st.plotly_chart(fig2, use_container_width=True)
+        safe_plotly_chart(fig2)
         make_download_button(filtered, "Download filtered MMM table", "mixed_matrix_membranes_filtered.csv")
 
 
@@ -663,24 +714,23 @@ def render_catalysis(dfs: Dict[str, pd.DataFrame]) -> None:
         x="catalyst",
         y=metric_col,
         color="product_group",
-        hover_data=["co_catalyst", "reaction_conditions", raw_col, "reference"],
+        hover_data=["co_catalyst_clean", "reaction_conditions", raw_col, "reference"],
         title=f"Top catalytic systems by {mode.lower()}",
     )
     fig.update_xaxes(tickangle=-35)
     fig.update_layout(yaxis_title=f"{mode} (%)")
-    st.plotly_chart(fig, use_container_width=True)
+    safe_plotly_chart(fig)
 
     col1, col2 = st.columns([1.25, 1.0])
-
     with col1:
-        st.dataframe(filtered[[
-            "catalyst", "co_catalyst", "reaction_conditions", "product_group", "yield_pct", "selectivity_pct", "reference"
-        ]], use_container_width=True)
+        safe_dataframe(filtered[[
+            "catalyst", "co_catalyst_clean", "reaction_conditions", "product_group", "yield_pct", "selectivity_pct", "reference"
+        ]])
     with col2:
-        cocat_counts = filtered["co_catalyst"].fillna("Unspecified").replace("", "Unspecified").value_counts().head(12).reset_index()
+        cocat_counts = filtered["co_catalyst_clean"].value_counts().head(12).reset_index()
         cocat_counts.columns = ["co_catalyst", "records"]
         fig2 = px.pie(cocat_counts, values="records", names="co_catalyst", title="Co-catalyst distribution in the current view")
-        st.plotly_chart(fig2, use_container_width=True)
+        safe_plotly_chart(fig2)
 
     make_download_button(filtered, "Download filtered catalytic table", "catalytic_conversion_filtered.csv")
 
@@ -690,7 +740,11 @@ def render_photocatalysis(dfs: Dict[str, pd.DataFrame]) -> None:
 
     df = prep_photocatalysis(dfs["photocatalytic_conversion"])
     products = sorted(df["product_group"].dropna().unique().tolist())
-    selected_products = st.multiselect("Photocatalytic products", products, default=products[:4] if len(products) > 4 else products)
+    selected_products = st.multiselect(
+        "Photocatalytic products",
+        products,
+        default=products[:4] if len(products) > 4 else products,
+    )
 
     filtered = df.copy()
     if selected_products:
@@ -703,24 +757,24 @@ def render_photocatalysis(dfs: Dict[str, pd.DataFrame]) -> None:
         x="photocatalyst",
         y="efficiency_num",
         color="product_group",
-        hover_data=["sacrificial_agent_clean", "irradiation", "reference"],
+        hover_data=["sacrificial_agent_clean", "irradiation_clean", "reference"],
         title="Top photocatalytic efficiencies reported in the review",
     )
     fig.update_xaxes(tickangle=-35)
     fig.update_layout(yaxis_title="Photocatalytic efficiency (µmol/g h)")
-    st.plotly_chart(fig, use_container_width=True)
+    safe_plotly_chart(fig)
 
     col1, col2 = st.columns([1.2, 1.0])
     with col1:
-        st.dataframe(filtered[[
-            "photocatalyst", "sacrificial_agent_clean", "irradiation", "product_group",
+        safe_dataframe(filtered[[
+            "photocatalyst", "sacrificial_agent_clean", "irradiation_clean", "product_group",
             "photocatalytic_efficiency_umol_g_h", "reference"
-        ]], use_container_width=True)
+        ]])
     with col2:
-        irr = filtered["irradiation"].fillna("Unspecified").replace("", "Unspecified").value_counts().reset_index()
+        irr = filtered["irradiation_clean"].value_counts().reset_index()
         irr.columns = ["irradiation", "records"]
         fig2 = px.bar(irr, x="irradiation", y="records", title="Irradiation modes in the current view")
-        st.plotly_chart(fig2, use_container_width=True)
+        safe_plotly_chart(fig2)
 
     make_download_button(filtered, "Download filtered photocatalytic table", "photocatalytic_conversion_filtered.csv")
 
@@ -733,9 +787,9 @@ def render_sustainability(dfs: Dict[str, pd.DataFrame]) -> None:
     outlook_df = dfs["outlook_priorities"].copy()
 
     metric_row([
-        ("LCA case studies", f"{len(case_df):,}", "Narrative case studies extracted from the sustainability section"),
+        ("LCA case studies", f"{len(case_df):,}", "Narrative case studies extracted from the review"),
         ("Hotspot categories", f"{len(hotspot_df):,}", "Main life-cycle hotspots table"),
-        ("Outlook priorities", f"{len(outlook_df):,}", "Challenges and future work distilled into a structured table"),
+        ("Outlook priorities", f"{len(outlook_df):,}", "Challenges and future work structured from the review"),
     ])
 
     st.markdown("#### Case-study view")
@@ -744,8 +798,8 @@ def render_sustainability(dfs: Dict[str, pd.DataFrame]) -> None:
 
     c1, c2, c3 = st.columns(3)
     c1.metric("Application", row["application"])
-    c2.metric("Environmental improvement (%)", row["environmental_burden_reduction_pct"] or "Not stated")
-    c3.metric("Cost improvement (%)", row["cost_reduction_pct"] or "Not stated")
+    c2.metric("Environmental improvement (%)", normalise_text(row["environmental_burden_reduction_pct"]) or "Not stated")
+    c3.metric("Cost improvement (%)", normalise_text(row["cost_reduction_pct"]) or "Not stated")
 
     st.info(f"**Route or system:** {row['route_or_system']}")
     if normalise_text(row["reported_gwp_kgco2e_per_kg"]):
@@ -755,35 +809,35 @@ def render_sustainability(dfs: Dict[str, pd.DataFrame]) -> None:
     st.write(f"**Key metric:** {row['other_key_metric']}")
     st.write(f"**Why it matters:** {row['notes']}")
 
+    case_plot = case_df.copy()
+    case_plot["env_reduction_num"] = case_plot["environmental_burden_reduction_pct"].map(first_number)
+    case_plot["cost_reduction_num"] = case_plot["cost_reduction_pct"].map(first_number)
     fig = px.bar(
-        case_df.assign(
-            env_reduction_num=case_df["environmental_burden_reduction_pct"].map(first_number),
-            cost_reduction_num=case_df["cost_reduction_pct"].map(first_number),
-        ),
+        case_plot,
         x="case_study",
         y=["env_reduction_num", "cost_reduction_num"],
         barmode="group",
-        title="Reported sustainability improvements from narrative case studies",
+        title="Reported sustainability improvements from case studies",
     )
     fig.update_xaxes(tickangle=-25)
     fig.update_layout(yaxis_title="Improvement (%)", legend_title="")
-    st.plotly_chart(fig, use_container_width=True)
+    safe_plotly_chart(fig)
 
     st.markdown("#### Main life-cycle hotspots")
-    st.dataframe(hotspot_df, use_container_width=True)
+    safe_dataframe(hotspot_df)
 
     st.markdown("#### Outlook priorities")
     area = st.selectbox("Challenge area", sorted(outlook_df["challenge_area"].unique().tolist()))
     filtered = outlook_df[outlook_df["challenge_area"] == area]
-    st.dataframe(filtered, use_container_width=True)
+    safe_dataframe(filtered)
 
     fig2 = px.bar(
         outlook_df.groupby("challenge_area").size().reset_index(name="count"),
         x="challenge_area",
         y="count",
-        title="How the paper's future priorities are distributed",
+        title="How the review's future priorities are distributed",
     )
-    st.plotly_chart(fig2, use_container_width=True)
+    safe_plotly_chart(fig2)
 
     make_download_button(case_df, "Download LCA case studies", "lca_case_studies.csv")
     make_download_button(hotspot_df, "Download LCA hotspots", "lca_hotspots.csv")
@@ -796,7 +850,7 @@ def render_data_browser(dfs: Dict[str, pd.DataFrame]) -> None:
     dataset_name = st.selectbox("Dataset", list(dfs.keys()))
     df = dfs[dataset_name]
     st.write(f"Rows: {len(df):,}")
-    st.dataframe(df, use_container_width=True)
+    safe_dataframe(df)
     make_download_button(df, "Download this dataset", f"{dataset_name}.csv")
 
 
@@ -822,10 +876,10 @@ def build_context_snippets(dfs: Dict[str, pd.DataFrame], focus: str) -> str:
         snippets.append("Representative MMM rows:\n" + top_mmm[["polymer", "filler", "category", "loading_pct", "conditions", "co2_permeability_or_gpu", "selectivity_co2_n2", "selectivity_co2_ch4", "reference"]].to_csv(index=False))
     elif focus == "Catalysis":
         top_cat = cat_df.dropna(subset=["yield_num"]).sort_values("yield_num", ascending=False).head(25)
-        snippets.append("Representative catalytic rows:\n" + top_cat[["catalyst", "co_catalyst", "reaction_conditions", "product_group", "yield_pct", "selectivity_pct", "reference"]].to_csv(index=False))
+        snippets.append("Representative catalytic rows:\n" + top_cat[["catalyst", "co_catalyst_clean", "reaction_conditions", "product_group", "yield_pct", "selectivity_pct", "reference"]].to_csv(index=False))
     elif focus == "Photocatalysis":
         top_photo = photo_df.dropna(subset=["efficiency_num"]).sort_values("efficiency_num", ascending=False).head(25)
-        snippets.append("Representative photocatalytic rows:\n" + top_photo[["photocatalyst", "sacrificial_agent_clean", "irradiation", "product_group", "photocatalytic_efficiency_umol_g_h", "reference"]].to_csv(index=False))
+        snippets.append("Representative photocatalytic rows:\n" + top_photo[["photocatalyst", "sacrificial_agent_clean", "irradiation_clean", "product_group", "photocatalytic_efficiency_umol_g_h", "reference"]].to_csv(index=False))
     else:
         snippets.append("Sustainability case studies:\n" + case_df.to_csv(index=False))
         snippets.append("LCA hotspots:\n" + dfs["lca_hotspots"].to_csv(index=False))
@@ -835,7 +889,7 @@ def build_context_snippets(dfs: Dict[str, pd.DataFrame], focus: str) -> str:
 
 def render_ai_assistant(dfs: Dict[str, pd.DataFrame]) -> None:
     st.header("Ask the review")
-    st.caption("Optional AI assistant integrated into the same Python file. It is limited to the loaded dataset context.")
+    st.caption("Optional AI assistant integrated into the same Python file. It is restricted to the loaded dataset context.")
 
     focus = st.selectbox("Context focus", ["Adsorption", "Membranes", "Catalysis", "Photocatalysis", "Sustainability"])
     question = st.text_area(
