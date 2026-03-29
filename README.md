@@ -93,6 +93,3 @@ The app also checks `openai_api_key` and `openai_api_key2`, and it can use Strea
 
 These are structured from the review's narrative sections so the sustainability tab can show more than the single hotspot table.
 
-## Suggested next refinement
-
-If you want to push the app further later, the next good upgrade would be to add the paper figures as annotated image panels or redraw a few of the key schematics directly in the interface.
